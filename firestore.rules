@@ -1,0 +1,58 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && (
+        request.auth.token.email == 'rakshanayak290@gmail.com' ||
+        (request.auth.token.role == 'admin') ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin')
+      );
+    }
+
+    function isOfficer() {
+      return isAuthenticated() && (
+        isAdmin() ||
+        request.auth.token.role == 'officer' ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'officer')
+      );
+    }
+
+    // System Collection: Health check & connectivity probes
+    match /system/{metaId} {
+      allow read, write: if true;
+    }
+
+    // Complaints Collection:
+    // Transparent municipal tracking and GIS map allows public reading
+    // Citizens can submit new complaints
+    // Officers can update status, triage, and assign
+    // Corroboration increments count and priority
+    match /complaints/{complaintId} {
+      allow read: if true;
+      allow create: if request.resource.data.id is string
+                    && request.resource.data.title is string
+                    && request.resource.data.description is string;
+      allow update: if true;
+      allow delete: if isAdmin();
+    }
+
+    // Hotspot Clusters
+    match /hotspots/{hotspotId} {
+      allow read, write: if true;
+    }
+
+    // Users Collection
+    match /users/{userId} {
+      allow read: if isAuthenticated() && (request.auth.uid == userId || isOfficer());
+      allow create, update: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      allow delete: if isAdmin();
+    }
+  }
+}

@@ -1,0 +1,3224 @@
+[
+  {
+    "id": "CIV-2026-2785",
+    "title": "Broken Water Main Flooding 5th Avenue",
+    "description": "High pressure water main cracked open causing rapid flooding on the street and sidewalk.",
+    "category": "Water & Sanitation",
+    "location": {
+      "address": "500 5th Avenue",
+      "ward": "Ward 3 - Central District",
+      "latitude": 37.7752,
+      "longitude": -122.419
+    },
+    "citizenName": "Priya Sharma",
+    "createdAt": "2026-10-30T09:22:06.240Z",
+    "updatedAt": "2026-10-30T09:22:06.240Z",
+    "status": "Under Review",
+    "assignedDepartment": "Water & Sewerage Board",
+    "priority": {
+      "score": 88,
+      "level": "Critical",
+      "factors": {
+        "urgency": 9,
+        "publicImpact": 8,
+        "safetyRisk": 9
+      },
+      "explanation": "Score calculated as Safety Risk (9/10 × 40%) + Urgency (9/10 × 35%) + Public Impact (8/10 × 25%). Immediate intervention required due to elevated risk of injury or structural disruption.",
+      "slaHours": 4
+    },
+    "aiAnalysis": {
+      "summary": "Water & Sanitation issue: Broken Water Main Flooding 5th Avenue. Evaluated priority 88/100 based on public impact and safety indices.",
+      "recommendedCategory": "Water & Sanitation",
+      "recommendedAction": "Immediate emergency dispatch for Water & Sewerage Board. Secure location perimeter immediately, isolate hazard source, and begin urgent remediation.",
+      "suggestedDepartment": "Water & Sewerage Board",
+      "priority": {
+        "score": 88,
+        "level": "Critical",
+        "factors": {
+          "urgency": 9,
+          "publicImpact": 8,
+          "safetyRisk": 9
+        },
+        "explanation": "Score calculated as Safety Risk (9/10 × 40%) + Urgency (9/10 × 35%) + Public Impact (8/10 × 25%). Immediate intervention required due to elevated risk of injury or structural disruption.",
+        "slaHours": 4
+      },
+      "detectedKeywords": [
+        "water-utility",
+        "leakage"
+      ],
+      "analysisEngine": "Deterministic Civic Heuristics (API Fallback)",
+      "confidence": 0.88
+    },
+    "duplicateInfo": {
+      "isDuplicate": true,
+      "parentComplaintId": "CIV-2026-3821",
+      "confidenceScore": 77,
+      "reason": "Reported within 97m of existing Assigned report CIV-2026-3821. Same municipal category: Water & Sanitation. High lexical similarity (23% keyword match).",
+      "distanceMeters": 97
+    },
+    "corroborationCount": 1,
+    "actionLogs": [
+      {
+        "id": "LOG-126240",
+        "timestamp": "2026-10-30T09:22:06.240Z",
+        "actor": "Priya Sharma",
+        "actorRole": "Citizen",
+        "action": "Report Submitted",
+        "toStatus": "Submitted",
+        "note": "Complaint registered via CivicAI Public Portal."
+      },
+      {
+        "id": "LOG-126241",
+        "timestamp": "2026-10-30T09:22:06.240Z",
+        "actor": "CivicAI Engine (Deterministic Civic Heuristics (API Fallback))",
+        "actorRole": "AI Agent",
+        "action": "AI Triage & Priority Scoring",
+        "fromStatus": "Submitted",
+        "toStatus": "Under Review",
+        "note": "Analyzed as Critical Priority (88/100). Recommended routing: Water & Sewerage Board. Target SLA: 4 hours."
+      },
+      {
+        "id": "LOG-126242",
+        "timestamp": "2026-10-30T09:22:06.240Z",
+        "actor": "CivicAI Duplicate Engine",
+        "actorRole": "AI Agent",
+        "action": "Flagged Potential Duplicate",
+        "note": "Flagged as candidate duplicate of CIV-2026-3821 (77% confidence). Reported within 97m of existing Assigned report CIV-2026-3821. Same municipal category: Water & Sanitation. High lexical similarity (23% keyword match)."
+      }
+    ]
+  },
+  {
+    "assignedOfficer": "Officer Ray Sterling (Emergency Unit 1)",
+    "createdAt": "2026-10-30T07:04:36.454Z",
+    "status": "In Progress",
+    "id": "CIV-2026-3823",
+    "location": {
+      "ward": "Ward 5 - Mission Corridor",
+      "latitude": 37.7649,
+      "longitude": -122.42,
+      "address": "1995 Mission St",
+      "landmark": "Plaza escalator"
+    },
+    "duplicateInfo": {
+      "distanceMeters": 15,
+      "reason": "15m radius spatial collocation and synchronized hazard description with active incident CIV-2026-3820.",
+      "confidenceScore": 97,
+      "parentComplaintId": "CIV-2026-3820",
+      "isDuplicate": true
+    },
+    "aiAnalysis": {
+      "summary": "Downed energized power line reported at transit entrance.",
+      "priority": {
+        "level": "Critical",
+        "slaHours": 2,
+        "score": 95,
+        "explanation": "Transit concourse electrical danger.",
+        "factors": {
+          "publicImpact": 9,
+          "safetyRisk": 10,
+          "urgency": 10
+        }
+      },
+      "suggestedDepartment": "Municipal Electricity Bureau",
+      "recommendedCategory": "Streetlights & Electrical",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "recommendedAction": "Link to ongoing emergency CIV-2026-3820.",
+      "confidence": 0.97,
+      "detectedKeywords": [
+        "downed line",
+        "buzzing",
+        "smoking",
+        "wet ground"
+      ]
+    },
+    "actionLogs": [
+      {
+        "actor": "Maya Hernandez",
+        "note": "Report received.",
+        "id": "LOG-028",
+        "toStatus": "Submitted",
+        "timestamp": "2026-10-30T07:04:36.454Z",
+        "action": "Complaint Registered",
+        "actorRole": "Citizen"
+      },
+      {
+        "toStatus": "In Progress",
+        "note": "Consolidated into primary incident CIV-2026-3820.",
+        "action": "Duplicate Consolidated",
+        "actorRole": "AI Deduplication Engine",
+        "fromStatus": "Submitted",
+        "timestamp": "2026-10-30T07:28:36.454Z",
+        "id": "LOG-029",
+        "actor": "CivicAI Autonomous Classifier"
+      }
+    ],
+    "corroborationCount": 11,
+    "citizenContact": "maya.h@example.com",
+    "description": "Wire fell from pole and is touching wet ground. Making loud buzzing sounds and smoking near the plaza.",
+    "category": "Streetlights & Electrical",
+    "priority": {
+      "factors": {
+        "urgency": 10,
+        "safetyRisk": 10,
+        "publicImpact": 9
+      },
+      "level": "Critical",
+      "score": 95,
+      "explanation": "Downed electrical line near transit entrance.",
+      "slaHours": 2
+    },
+    "isDemo": true,
+    "title": "Downed power line on sidewalk near 16th street bart entrance",
+    "updatedAt": "2026-10-30T07:28:36.454Z",
+    "assignedDepartment": "Municipal Electricity Bureau",
+    "citizenName": "Maya Hernandez"
+  },
+  {
+    "status": "In Progress",
+    "citizenContact": "devon.a@example.com",
+    "assignedOfficer": "Officer Ray Sterling (Emergency Unit 1)",
+    "id": "CIV-2026-3820",
+    "category": "Streetlights & Electrical",
+    "actionLogs": [
+      {
+        "timestamp": "2026-10-30T06:46:36.454Z",
+        "note": "Emergency report logged via mobile app with audio alert.",
+        "actorRole": "Citizen",
+        "action": "Complaint Registered",
+        "id": "LOG-025",
+        "toStatus": "Submitted",
+        "actor": "Devon Alvarez"
+      },
+      {
+        "action": "Code-3 Auto-Escalation",
+        "fromStatus": "Submitted",
+        "id": "LOG-026",
+        "note": "Priority 96 calculated. Automated notification dispatched to municipal dispatch console and fire dispatch.",
+        "actor": "CivicAI Autonomous Classifier",
+        "actorRole": "AI Safety Watchdog",
+        "toStatus": "Under Review",
+        "timestamp": "2026-10-30T06:52:36.454Z"
+      },
+      {
+        "actorRole": "Chief Dispatcher",
+        "timestamp": "2026-10-30T07:16:36.454Z",
+        "actor": "Elena Vance",
+        "note": "Grid line 16-M remote switch opened. Linemen on site securing perimeter with yellow police tape.",
+        "toStatus": "In Progress",
+        "action": "Immediate Assignment",
+        "id": "LOG-027",
+        "fromStatus": "Under Review"
+      }
+    ],
+    "priority": {
+      "slaHours": 2,
+      "factors": {
+        "safetyRisk": 10,
+        "publicImpact": 9,
+        "urgency": 10
+      },
+      "score": 96,
+      "explanation": "Active high-voltage electrical arc discharging into public sidewalk standing water adjacent to major subway station.",
+      "level": "Critical"
+    },
+    "citizenName": "Devon Alvarez",
+    "createdAt": "2026-10-30T06:46:36.454Z",
+    "description": "An overhead line snapped during high wind and is dangling directly onto the sidewalk at 16th & Mission. Sparks are visibly arcing into standing water puddle where bus commuters walk. Urgent electrocution danger.",
+    "title": "Exposed live electric wire sparking into standing sidewalk rainwater puddle",
+    "corroborationCount": 28,
+    "isDemo": true,
+    "updatedAt": "2026-10-30T08:16:36.454Z",
+    "aiAnalysis": {
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "recommendedAction": "Immediate remote grid section de-energization; emergency utility truck dispatched code 3 with police perimeter.",
+      "detectedKeywords": [
+        "exposed wire",
+        "sparking",
+        "rainwater",
+        "electrocution",
+        "subway plaza"
+      ],
+      "recommendedCategory": "Streetlights & Electrical",
+      "suggestedDepartment": "Municipal Electricity Bureau",
+      "summary": "Emergency live wire arcing into standing water at heavy pedestrian transit node with imminent electrocution hazard.",
+      "confidence": 0.99,
+      "priority": {
+        "slaHours": 2,
+        "level": "Critical",
+        "score": 96,
+        "factors": {
+          "publicImpact": 9,
+          "safetyRisk": 10,
+          "urgency": 10
+        },
+        "explanation": "Extreme life safety hazard in transit concourse."
+      }
+    },
+    "location": {
+      "address": "2001 Mission Street & 16th Street",
+      "longitude": -122.4199,
+      "latitude": 37.7648,
+      "landmark": "Mission Subway Station Plaza entrance",
+      "ward": "Ward 5 - Mission Corridor"
+    },
+    "assignedDepartment": "Municipal Electricity Bureau"
+  },
+  {
+    "status": "In Progress",
+    "citizenContact": "derrick.v@example.com",
+    "assignedOfficer": "Officer Priya Nair",
+    "id": "CIV-2026-3813",
+    "actionLogs": [
+      {
+        "note": "Reported.",
+        "id": "LOG-075",
+        "actor": "Derrick Vance",
+        "toStatus": "Submitted",
+        "timestamp": "2026-10-30T06:22:36.455Z",
+        "actorRole": "Citizen",
+        "action": "Complaint Registered"
+      },
+      {
+        "note": "Linked as third concurrent report of CIV-2026-3811.",
+        "actor": "CivicAI Autonomous Classifier",
+        "action": "Duplicate Consolidated",
+        "actorRole": "AI Deduplication Engine",
+        "timestamp": "2026-10-30T06:46:36.455Z",
+        "id": "LOG-076",
+        "toStatus": "In Progress",
+        "fromStatus": "Submitted"
+      }
+    ],
+    "category": "Traffic & Signage",
+    "priority": {
+      "level": "High",
+      "factors": {
+        "safetyRisk": 7,
+        "publicImpact": 8,
+        "urgency": 8
+      },
+      "slaHours": 8,
+      "score": 78,
+      "explanation": "Flashing red intersection malfunction causing gridlock."
+    },
+    "citizenName": "Derrick Vance",
+    "createdAt": "2026-10-30T06:22:36.455Z",
+    "description": "The traffic signal has been flashing red for an hour at Montgomery & 2nd. Complete chaos and gridlock. Police need to direct traffic.",
+    "title": "Lights stuck red Montgomery street & 2nd intersection",
+    "corroborationCount": 12,
+    "updatedAt": "2026-10-30T06:46:36.455Z",
+    "isDemo": true,
+    "duplicateInfo": {
+      "confidenceScore": 98,
+      "parentComplaintId": "CIV-2026-3811",
+      "reason": "10m radius collocation and identical timing to parent incident CIV-2026-3811.",
+      "distanceMeters": 10,
+      "isDuplicate": true
+    },
+    "aiAnalysis": {
+      "priority": {
+        "level": "High",
+        "factors": {
+          "publicImpact": 8,
+          "safetyRisk": 7,
+          "urgency": 8
+        },
+        "slaHours": 8,
+        "explanation": "Active traffic gridlock.",
+        "score": 78
+      },
+      "summary": "Signal malfunction reported with gridlock at Montgomery & 2nd.",
+      "recommendedAction": "Link to ongoing parent incident CIV-2026-3811.",
+      "detectedKeywords": [
+        "traffic signal",
+        "flashing red",
+        "gridlock",
+        "montgomery"
+      ],
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "confidence": 0.97,
+      "recommendedCategory": "Traffic & Signage",
+      "suggestedDepartment": "Traffic & Road Safety Authority"
+    },
+    "location": {
+      "latitude": 37.7752,
+      "address": "Montgomery St & 2nd St",
+      "longitude": -122.4187,
+      "ward": "Ward 3 - Central District",
+      "landmark": "Opposite transit shelter"
+    },
+    "assignedDepartment": "Traffic & Road Safety Authority"
+  },
+  {
+    "assignedDepartment": "Traffic & Road Safety Authority",
+    "citizenName": "Amy Zhao",
+    "citizenContact": "amy.z@example.com",
+    "duplicateInfo": {
+      "reason": "Exact geographic intersection match (12m) and synchronized timestamp during active signal malfunction.",
+      "distanceMeters": 12,
+      "confidenceScore": 96,
+      "parentComplaintId": "CIV-2026-3811",
+      "isDuplicate": true
+    },
+    "id": "CIV-2026-3812",
+    "aiAnalysis": {
+      "detectedKeywords": [
+        "traffic lights",
+        "collision",
+        "dead signal",
+        "stuck"
+      ],
+      "summary": "Signal blackout reported with elevated collision risk.",
+      "recommendedAction": "Link to primary incident CIV-2026-3811.",
+      "suggestedDepartment": "Traffic & Road Safety Authority",
+      "recommendedCategory": "Traffic & Signage",
+      "priority": {
+        "score": 79,
+        "slaHours": 8,
+        "explanation": "Intersection safety hazard.",
+        "level": "High",
+        "factors": {
+          "safetyRisk": 7,
+          "urgency": 8,
+          "publicImpact": 8
+        }
+      },
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "confidence": 0.95
+    },
+    "description": "The traffic lights are completely off at 2nd and Montgomery. Almost saw a t-bone collision between two delivery trucks. Cars are honking and stuck.",
+    "priority": {
+      "factors": {
+        "publicImpact": 8,
+        "safetyRisk": 7,
+        "urgency": 8
+      },
+      "score": 79,
+      "slaHours": 8,
+      "explanation": "Complete traffic signal blackout with near-miss collision reports.",
+      "level": "High"
+    },
+    "category": "Traffic & Signage",
+    "status": "In Progress",
+    "corroborationCount": 9,
+    "updatedAt": "2026-10-30T06:28:36.454Z",
+    "location": {
+      "address": "2nd St & Montgomery St",
+      "landmark": "At corner coffee shop",
+      "ward": "Ward 3 - Central District",
+      "latitude": 37.7754,
+      "longitude": -122.4187
+    },
+    "createdAt": "2026-10-30T06:04:36.454Z",
+    "title": "Signal light totally dead at Montgomery and 2nd street",
+    "assignedOfficer": "Officer Priya Nair",
+    "actionLogs": [
+      {
+        "actor": "Amy Zhao",
+        "action": "Complaint Registered",
+        "id": "LOG-011",
+        "actorRole": "Citizen",
+        "note": "Reported via mobile web portal.",
+        "timestamp": "2026-10-30T06:04:36.454Z",
+        "toStatus": "Submitted"
+      },
+      {
+        "fromStatus": "Submitted",
+        "id": "LOG-012",
+        "action": "Duplicate Consolidated",
+        "actor": "CivicAI Autonomous Classifier",
+        "note": "Merged into active response for CIV-2026-3811.",
+        "toStatus": "In Progress",
+        "actorRole": "AI Deduplication Engine",
+        "timestamp": "2026-10-30T06:28:36.454Z"
+      }
+    ],
+    "isDemo": true
+  },
+  {
+    "citizenContact": "luis.o@example.com",
+    "id": "CIV-2026-3831",
+    "corroborationCount": 8,
+    "aiAnalysis": {
+      "confidence": 0.94,
+      "detectedKeywords": [
+        "gas odor",
+        "rotten egg",
+        "sulfur",
+        "storm drain",
+        "apartments"
+      ],
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "priority": {
+        "score": 77,
+        "factors": {
+          "publicImpact": 7,
+          "safetyRisk": 8,
+          "urgency": 8
+        },
+        "explanation": "Fire and explosion risk screening required.",
+        "slaHours": 4,
+        "level": "High"
+      },
+      "recommendedAction": "Dispatch gas sniffer team and notify gas utility emergency dispatch.",
+      "suggestedDepartment": "Public Health & Environment",
+      "recommendedCategory": "Public Safety & Hazards",
+      "summary": "Suspected natural gas leakage in subsurface utility infrastructure adjacent to residential occupancy."
+    },
+    "assignedOfficer": "Inspector Angela Miller",
+    "updatedAt": "2026-10-30T07:46:36.454Z",
+    "isDemo": true,
+    "title": "Persistent rotten egg gas odor emanating from street storm drain on 17th",
+    "assignedDepartment": "Public Health & Environment",
+    "category": "Public Safety & Hazards",
+    "priority": {
+      "slaHours": 4,
+      "level": "High",
+      "explanation": "Potential combustible gas accumulation in municipal storm utility network.",
+      "score": 77,
+      "factors": {
+        "publicImpact": 7,
+        "urgency": 8,
+        "safetyRisk": 8
+      }
+    },
+    "status": "In Progress",
+    "citizenName": "Luis Orellana",
+    "location": {
+      "ward": "Ward 5 - Mission Corridor",
+      "longitude": -122.4205,
+      "landmark": "Outside bakery",
+      "latitude": 37.764,
+      "address": "3200 17th Street & Mission St"
+    },
+    "description": "Strong sulfur or mercaptan smell coming from the storm drain outside residential building. Neighbors smell it inside first floor apartments.",
+    "actionLogs": [
+      {
+        "action": "Complaint Registered",
+        "timestamp": "2026-10-30T05:46:36.454Z",
+        "id": "LOG-034",
+        "actorRole": "Citizen",
+        "toStatus": "Submitted",
+        "actor": "Luis Orellana",
+        "note": "Reported."
+      },
+      {
+        "toStatus": "In Progress",
+        "actorRole": "Environmental Health Officer",
+        "timestamp": "2026-10-30T07:46:36.454Z",
+        "fromStatus": "Submitted",
+        "actor": "Inspector Angela Miller",
+        "action": "Sniffer Investigation",
+        "note": "LEL detector readings 0.0%. Likely decaying organic sewage gas, continuing monitoring.",
+        "id": "LOG-035"
+      }
+    ],
+    "createdAt": "2026-10-30T05:46:36.454Z"
+  },
+  {
+    "isDemo": true,
+    "location": {
+      "longitude": -122.4188,
+      "ward": "Ward 3 - Central District",
+      "landmark": "Financial District Transit Crossing",
+      "latitude": 37.7753,
+      "address": "Montgomery Street & 2nd Street"
+    },
+    "assignedOfficer": "Officer Priya Nair",
+    "updatedAt": "2026-10-30T08:16:36.454Z",
+    "aiAnalysis": {
+      "recommendedAction": "Dispatch traffic enforcement for manual intersection control and signal controller technician.",
+      "confidence": 0.96,
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "summary": "Critical multi-phase signal failure on major transit corridor creating severe traffic congestion.",
+      "suggestedDepartment": "Traffic & Road Safety Authority",
+      "recommendedCategory": "Traffic & Signage",
+      "priority": {
+        "score": 78,
+        "factors": {
+          "publicImpact": 8,
+          "safetyRisk": 7,
+          "urgency": 8
+        },
+        "slaHours": 8,
+        "level": "High",
+        "explanation": "Multi-lane intersection failure with bus transit disruption."
+      },
+      "detectedKeywords": [
+        "traffic lights",
+        "blinking red",
+        "buses",
+        "gridlock",
+        "pedestrians"
+      ]
+    },
+    "title": "Traffic lights blinking red at Montgomery & 2nd St traffic mess",
+    "citizenContact": "kevin.p@example.com",
+    "description": "Massive traffic jam because the signal lights are dead or blinking red at Montgomery and 2nd. Buses cannot turn and pedestrians are running across 4 lanes of rush hour traffic.",
+    "actionLogs": [
+      {
+        "note": "Report submitted via mobile app.",
+        "id": "LOG-007",
+        "toStatus": "Submitted",
+        "actor": "Kevin Patel",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-30T05:16:36.454Z",
+        "action": "Complaint Registered"
+      },
+      {
+        "id": "LOG-008",
+        "actor": "CivicAI Autonomous Classifier",
+        "fromStatus": "Submitted",
+        "action": "AI Incident Triaged",
+        "toStatus": "Under Review",
+        "actorRole": "AI Triage Engine",
+        "note": "Priority score 78 calculated. Corroboration score spiked with 22 citizen confirmations.",
+        "timestamp": "2026-10-30T05:46:36.454Z"
+      },
+      {
+        "action": "Department Assignment",
+        "id": "LOG-009",
+        "fromStatus": "Under Review",
+        "actor": "Elena Vance",
+        "toStatus": "Assigned",
+        "timestamp": "2026-10-30T07:16:36.454Z",
+        "note": "Assigned to Traffic Engineering Signal Maintenance Unit.",
+        "actorRole": "Chief Dispatcher"
+      },
+      {
+        "toStatus": "In Progress",
+        "timestamp": "2026-10-30T08:16:36.454Z",
+        "actorRole": "Traffic Tech Lead",
+        "note": "Cabinet opened. Diagnosing circuit breaker trip on main phase controller.",
+        "action": "Technician on Scene",
+        "actor": "Officer Priya Nair",
+        "fromStatus": "Assigned",
+        "id": "LOG-010"
+      }
+    ],
+    "status": "In Progress",
+    "corroborationCount": 22,
+    "priority": {
+      "explanation": "Dead signal on multi-lane transit artery causing gridlock and pedestrian conflict during peak commuter volume.",
+      "score": 78,
+      "level": "High",
+      "slaHours": 8,
+      "factors": {
+        "safetyRisk": 7,
+        "publicImpact": 8,
+        "urgency": 8
+      }
+    },
+    "id": "CIV-2026-3811",
+    "category": "Traffic & Signage",
+    "assignedDepartment": "Traffic & Road Safety Authority",
+    "createdAt": "2026-10-30T05:16:36.454Z",
+    "citizenName": "Kevin Patel"
+  },
+  {
+    "isDemo": true,
+    "description": "Manhole cover was dislodged by heavy delivery truck and sits tilted halfway into the pit. Cyclists cannot see it in the rain. Could easily throw a cyclist or tear off a car wheel.",
+    "assignedOfficer": "Officer David Ramirez (Crew Lead 4)",
+    "assignedDepartment": "Public Works Department",
+    "title": "Heavy cast-iron manhole cover displaced leaving open pit in Valencia bike lane",
+    "createdAt": "2026-10-30T04:16:36.454Z",
+    "corroborationCount": 13,
+    "citizenName": "Chloe Bennett",
+    "aiAnalysis": {
+      "summary": "Open utility manhole vault directly in active bicycle corridor.",
+      "confidence": 0.95,
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "priority": {
+        "level": "High",
+        "factors": {
+          "urgency": 8,
+          "publicImpact": 7,
+          "safetyRisk": 9
+        },
+        "explanation": "Severe cyclist head injury and vehicular damage hazard.",
+        "score": 79,
+        "slaHours": 6
+      },
+      "recommendedAction": "Position high-visibility barricade immediately; reseat cover with magnetic lifter crane.",
+      "suggestedDepartment": "Public Works Department",
+      "recommendedCategory": "Public Safety & Hazards",
+      "detectedKeywords": [
+        "manhole cover",
+        "open pit",
+        "bike lane",
+        "cyclists",
+        "dislodged"
+      ]
+    },
+    "citizenContact": "chloe.b@example.com",
+    "location": {
+      "landmark": "Valencia Bikeway corridor",
+      "ward": "Ward 5 - Mission Corridor",
+      "latitude": 37.7632,
+      "longitude": -122.4215,
+      "address": "750 Valencia Street & 19th St"
+    },
+    "id": "CIV-2026-3830",
+    "updatedAt": "2026-10-30T07:16:36.454Z",
+    "priority": {
+      "score": 79,
+      "explanation": "Open subsurface vault pit in designated high-volume bicycle lane posing catastrophic wheel-trap risk.",
+      "slaHours": 6,
+      "level": "High",
+      "factors": {
+        "urgency": 8,
+        "safetyRisk": 9,
+        "publicImpact": 7
+      }
+    },
+    "status": "In Progress",
+    "actionLogs": [
+      {
+        "actorRole": "Citizen",
+        "action": "Complaint Registered",
+        "timestamp": "2026-10-30T04:16:36.454Z",
+        "id": "LOG-032",
+        "actor": "Chloe Bennett",
+        "toStatus": "Submitted",
+        "note": "Reported via web portal."
+      },
+      {
+        "toStatus": "In Progress",
+        "id": "LOG-033",
+        "fromStatus": "Submitted",
+        "action": "Barricade Deployed",
+        "actor": "Officer David Ramirez",
+        "timestamp": "2026-10-30T07:16:36.454Z",
+        "note": "High-visibility safety cone and flashing beacon placed while heavy crane truck arrives.",
+        "actorRole": "Field Supervisor"
+      }
+    ],
+    "category": "Public Safety & Hazards"
+  },
+  {
+    "title": "Water bubbling up through street Market and 5th",
+    "aiAnalysis": {
+      "detectedKeywords": [
+        "bubbling",
+        "water pipe burst",
+        "flooded"
+      ],
+      "confidence": 0.94,
+      "recommendedAction": "Link to parent CIV-2026-3821.",
+      "suggestedDepartment": "Water & Sewerage Board",
+      "recommendedCategory": "Water & Sanitation",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "summary": "Street flooding from ruptured pipe.",
+      "priority": {
+        "level": "Critical",
+        "slaHours": 4,
+        "explanation": "Flooding on transit corridor.",
+        "factors": {
+          "publicImpact": 8,
+          "safetyRisk": 9,
+          "urgency": 9
+        },
+        "score": 86
+      }
+    },
+    "createdAt": "2026-10-30T04:04:36.454Z",
+    "location": {
+      "landmark": "Near transit elevator",
+      "address": "895 Market St",
+      "longitude": -122.4183,
+      "latitude": 37.7759,
+      "ward": "Ward 3 - Central District"
+    },
+    "status": "Assigned",
+    "citizenContact": "carlos.m@example.com",
+    "updatedAt": "2026-10-30T04:28:36.454Z",
+    "description": "Street is totally flooded at 5th and Market. Looks like a water pipe burst under the road. Pedestrians cannot cross.",
+    "assignedDepartment": "Water & Sewerage Board",
+    "priority": {
+      "explanation": "Flooding street from broken pipe.",
+      "level": "Critical",
+      "slaHours": 4,
+      "score": 86,
+      "factors": {
+        "urgency": 9,
+        "publicImpact": 8,
+        "safetyRisk": 9
+      }
+    },
+    "actionLogs": [
+      {
+        "id": "LOG-016",
+        "note": "Report captured.",
+        "action": "Complaint Registered",
+        "actor": "Carlos M.",
+        "toStatus": "Submitted",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-30T04:04:36.454Z"
+      },
+      {
+        "action": "Duplicate Consolidated",
+        "actorRole": "AI Deduplication Engine",
+        "id": "LOG-017",
+        "actor": "CivicAI Autonomous Classifier",
+        "timestamp": "2026-10-30T04:28:36.454Z",
+        "fromStatus": "Submitted",
+        "note": "Linked to primary incident CIV-2026-3821.",
+        "toStatus": "Assigned"
+      }
+    ],
+    "assignedOfficer": "Supervisor Thomas Cole",
+    "category": "Water & Sanitation",
+    "duplicateInfo": {
+      "distanceMeters": 18,
+      "isDuplicate": true,
+      "reason": "Direct location overlap (18m) and identical incident report.",
+      "confidenceScore": 92,
+      "parentComplaintId": "CIV-2026-3821"
+    },
+    "isDemo": true,
+    "citizenName": "Carlos M.",
+    "corroborationCount": 7,
+    "id": "CIV-2026-3825"
+  },
+  {
+    "description": "Water is gushing out from cracked asphalt at Market and 5th. Water level is already 6 inches deep across 2 lanes. Basements in commercial shops are at risk of flooding.",
+    "aiAnalysis": {
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "confidence": 0.98,
+      "detectedKeywords": [
+        "ruptured",
+        "water main",
+        "flooding",
+        "basement",
+        "gushing"
+      ],
+      "recommendedAction": "Emergency valve isolation within 45 minutes; dispatch vac-truck and heavy excavation crew.",
+      "recommendedCategory": "Water & Sanitation",
+      "suggestedDepartment": "Water & Sewerage Board",
+      "summary": "High-volume subterranean water main rupture with active roadway flooding and basement inundation risk.",
+      "priority": {
+        "explanation": "Severe infrastructure damage and high municipal liability.",
+        "slaHours": 4,
+        "level": "Critical",
+        "factors": {
+          "publicImpact": 9,
+          "safetyRisk": 9,
+          "urgency": 9
+        },
+        "score": 89
+      }
+    },
+    "assignedOfficer": "Supervisor Thomas Cole",
+    "location": {
+      "address": "880 Market Street & 5th Street",
+      "ward": "Ward 3 - Central District",
+      "latitude": 37.7758,
+      "landmark": "Outside Metro Plaza",
+      "longitude": -122.4182
+    },
+    "updatedAt": "2026-10-30T07:16:36.454Z",
+    "citizenName": "Danielle Brooks",
+    "isDemo": true,
+    "corroborationCount": 19,
+    "title": "Ruptured 12-inch high-pressure water main flooding roadway and sidewalk",
+    "id": "CIV-2026-3821",
+    "createdAt": "2026-10-30T03:16:36.454Z",
+    "status": "Assigned",
+    "assignedDepartment": "Water & Sewerage Board",
+    "actionLogs": [
+      {
+        "timestamp": "2026-10-30T03:16:36.454Z",
+        "note": "Report submitted with photo of street flooding.",
+        "actorRole": "Citizen",
+        "actor": "Danielle Brooks",
+        "id": "LOG-013",
+        "toStatus": "Submitted",
+        "action": "Complaint Registered"
+      },
+      {
+        "fromStatus": "Submitted",
+        "actor": "CivicAI Autonomous Classifier",
+        "id": "LOG-014",
+        "toStatus": "Under Review",
+        "note": "Classified Critical (Score 89). Auto-escalation trigger sent to water dispatch.",
+        "action": "AI Incident Triaged",
+        "actorRole": "AI Triage Engine",
+        "timestamp": "2026-10-30T03:46:36.454Z"
+      },
+      {
+        "action": "Department Assignment",
+        "timestamp": "2026-10-30T07:16:36.454Z",
+        "toStatus": "Assigned",
+        "actorRole": "Chief Dispatcher",
+        "id": "LOG-015",
+        "actor": "Elena Vance",
+        "fromStatus": "Under Review",
+        "note": "Assigned to Water Emergency Response Unit 1."
+      }
+    ],
+    "citizenContact": "danielle.b@example.com",
+    "priority": {
+      "score": 89,
+      "factors": {
+        "publicImpact": 9,
+        "urgency": 9,
+        "safetyRisk": 9
+      },
+      "slaHours": 4,
+      "explanation": "Major municipal water line breach causing roadway inundation and commercial property water infiltration.",
+      "level": "Critical"
+    },
+    "category": "Water & Sanitation"
+  },
+  {
+    "updatedAt": "2026-10-30T06:16:36.454Z",
+    "actionLogs": [
+      {
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-30T01:16:36.454Z",
+        "note": "Report submitted with geo-location.",
+        "actor": "Eduardo Santos",
+        "action": "Complaint Registered",
+        "id": "LOG-030",
+        "toStatus": "Submitted"
+      },
+      {
+        "note": "Emergency civil engineering inspection team assigned.",
+        "actorRole": "Chief Dispatcher",
+        "timestamp": "2026-10-30T06:16:36.454Z",
+        "toStatus": "Assigned",
+        "actor": "Elena Vance",
+        "id": "LOG-031",
+        "fromStatus": "Submitted",
+        "action": "Department Assignment"
+      }
+    ],
+    "description": "The underground stormwater culvert under 18th & Mission has buckled. Roadbed is visibly sinking and creating a 2-foot sinkhole while dirty runoff is gushing onto the sidewalk.",
+    "status": "Assigned",
+    "category": "Water & Sanitation",
+    "priority": {
+      "level": "Critical",
+      "slaHours": 4,
+      "explanation": "Structural culvert failure undermining road surface with growing sinkhole potential under active bus line.",
+      "factors": {
+        "urgency": 9,
+        "safetyRisk": 9,
+        "publicImpact": 8
+      },
+      "score": 87
+    },
+    "citizenName": "Eduardo Santos",
+    "citizenContact": "eduardo.s@example.com",
+    "location": {
+      "longitude": -122.4196,
+      "landmark": "Near historic theater",
+      "address": "2210 Mission Street & 18th Street",
+      "ward": "Ward 5 - Mission Corridor",
+      "latitude": 37.7635
+    },
+    "id": "CIV-2026-3822",
+    "assignedDepartment": "Public Works Department",
+    "aiAnalysis": {
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "priority": {
+        "explanation": "Structural road failure with imminent collapse risk.",
+        "score": 87,
+        "slaHours": 4,
+        "factors": {
+          "publicImpact": 8,
+          "urgency": 9,
+          "safetyRisk": 9
+        },
+        "level": "Critical"
+      },
+      "summary": "Stormwater culvert collapse compromising arterial roadway foundation with active subsidence.",
+      "detectedKeywords": [
+        "culvert collapsed",
+        "sinkhole",
+        "roadbed sinking",
+        "waterlogging"
+      ],
+      "confidence": 0.94,
+      "recommendedCategory": "Water & Sanitation",
+      "recommendedAction": "Close traffic lane immediately; dispatch structural engineering inspection and bypass pumping.",
+      "suggestedDepartment": "Public Works Department"
+    },
+    "title": "Collapsed storm culvert causing severe flash waterlogging and structural road erosion",
+    "assignedOfficer": "Supervisor Thomas Cole",
+    "createdAt": "2026-10-30T01:16:36.454Z",
+    "corroborationCount": 15,
+    "isDemo": true
+  },
+  {
+    "isDemo": true,
+    "actionLogs": [
+      {
+        "actor": "Arthur Pendelton",
+        "action": "Complaint Registered",
+        "id": "LOG-042",
+        "toStatus": "Submitted",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-30T00:16:36.454Z",
+        "note": "Reported with photo."
+      },
+      {
+        "actorRole": "Field Supervisor",
+        "timestamp": "2026-10-30T07:16:36.454Z",
+        "actor": "Arborist Inspector Daniel Vance",
+        "action": "Tree Crew En Route",
+        "toStatus": "In Progress",
+        "id": "LOG-043",
+        "note": "Boom truck en route. Caution cones placed around bus shelter.",
+        "fromStatus": "Submitted"
+      }
+    ],
+    "citizenName": "Arthur Pendelton",
+    "priority": {
+      "level": "High",
+      "factors": {
+        "urgency": 8,
+        "publicImpact": 8,
+        "safetyRisk": 8
+      },
+      "slaHours": 6,
+      "explanation": "Compromised canopy limb over public transit passenger waiting zone with imminent wind-induced collapse potential.",
+      "score": 78
+    },
+    "category": "Parks & Public Spaces",
+    "description": "Heavy limb is fractured at the trunk junction and dangling by bark fibers over the Muni bus shelter on Geary Blvd & 10th Ave. Any strong gust could bring it down onto waiting passengers.",
+    "updatedAt": "2026-10-30T07:16:36.454Z",
+    "citizenContact": "arthur.p@example.com",
+    "createdAt": "2026-10-30T00:16:36.454Z",
+    "assignedOfficer": "Arborist Inspector Daniel Vance",
+    "assignedDepartment": "Parks & Recreation Agency",
+    "status": "In Progress",
+    "title": "Cracked 8-inch eucalyptus branch suspended directly over active bus stop",
+    "corroborationCount": 14,
+    "aiAnalysis": {
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "summary": "Hazardous hanging limb with imminent drop hazard at high-ridership transit shelter.",
+      "suggestedDepartment": "Parks & Recreation Agency",
+      "recommendedCategory": "Parks & Public Spaces",
+      "priority": {
+        "slaHours": 6,
+        "score": 78,
+        "explanation": "Transit shelter overhead hazard.",
+        "level": "High",
+        "factors": {
+          "publicImpact": 8,
+          "safetyRisk": 8,
+          "urgency": 8
+        }
+      },
+      "confidence": 0.96,
+      "recommendedAction": "Deploy boom bucket truck immediately; rope off shelter perimeter until limb is lowered.",
+      "detectedKeywords": [
+        "eucalyptus branch",
+        "bus shelter",
+        "fractured",
+        "dangling"
+      ]
+    },
+    "location": {
+      "latitude": 37.7808,
+      "address": "4600 Geary Blvd & 10th Ave",
+      "landmark": "Geary Rapid Bus Stop",
+      "ward": "Ward 1 - Richmond District",
+      "longitude": -122.469
+    },
+    "id": "CIV-2026-3836"
+  },
+  {
+    "title": "Toddler bucket swing chain sheared off at top crossbar mounting",
+    "isDemo": true,
+    "id": "CIV-2026-3838",
+    "description": "One of the chains on the toddler swing at Fulton Playground broke loose from its S-hook. The swing is hanging precariously and kids are trying to climb it.",
+    "citizenContact": "jess.t@example.com",
+    "assignedOfficer": "Park Specialist Liam O’Connor",
+    "corroborationCount": 5,
+    "citizenName": "Jessica Taylor",
+    "assignedDepartment": "Parks & Recreation Agency",
+    "location": {
+      "ward": "Ward 1 - Richmond District",
+      "longitude": -122.466,
+      "landmark": "Fulton Playground tot lot",
+      "latitude": 37.7725,
+      "address": "Fulton St & 8th Ave"
+    },
+    "createdAt": "2026-10-29T18:16:36.454Z",
+    "actionLogs": [
+      {
+        "actor": "Jessica Taylor",
+        "action": "Complaint Registered",
+        "id": "LOG-046",
+        "actorRole": "Citizen",
+        "toStatus": "Submitted",
+        "note": "Reported.",
+        "timestamp": "2026-10-29T18:16:36.454Z"
+      },
+      {
+        "actor": "Park Specialist Liam O’Connor",
+        "fromStatus": "Submitted",
+        "timestamp": "2026-10-30T03:16:36.454Z",
+        "id": "LOG-047",
+        "note": "Damaged swing removed. New chain assembly ordered.",
+        "actorRole": "Park Maintenance",
+        "toStatus": "In Progress",
+        "action": "Secured Apparatus"
+      }
+    ],
+    "priority": {
+      "explanation": "Compromised playground apparatus in active neighborhood park.",
+      "factors": {
+        "safetyRisk": 6,
+        "publicImpact": 5,
+        "urgency": 5
+      },
+      "score": 52,
+      "slaHours": 24,
+      "level": "Medium"
+    },
+    "aiAnalysis": {
+      "recommendedAction": "Remove broken swing immediate and install heavy-duty tamper-proof shackle.",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "summary": "Playground equipment hardware failure in active children’s play area.",
+      "confidence": 0.94,
+      "recommendedCategory": "Parks & Public Spaces",
+      "suggestedDepartment": "Parks & Recreation Agency",
+      "priority": {
+        "level": "Medium",
+        "factors": {
+          "safetyRisk": 6,
+          "urgency": 5,
+          "publicImpact": 5
+        },
+        "slaHours": 24,
+        "score": 52,
+        "explanation": "Child recreational fall hazard."
+      },
+      "detectedKeywords": [
+        "toddler swing",
+        "chain sheared",
+        "playground",
+        "broken S-hook"
+      ]
+    },
+    "category": "Parks & Public Spaces",
+    "updatedAt": "2026-10-30T03:16:36.454Z",
+    "status": "In Progress"
+  },
+  {
+    "updatedAt": "2026-10-30T01:16:36.454Z",
+    "isDemo": true,
+    "category": "Water & Sanitation",
+    "priority": {
+      "factors": {
+        "safetyRisk": 5,
+        "urgency": 5,
+        "publicImpact": 6
+      },
+      "score": 54,
+      "explanation": "Blocked storm drain obstructing ADA wheelchair ramp access.",
+      "level": "Medium",
+      "slaHours": 48
+    },
+    "actionLogs": [
+      {
+        "id": "LOG-018",
+        "actor": "Rachel Kim",
+        "action": "Complaint Registered",
+        "note": "Report submitted.",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-29T15:16:36.454Z",
+        "toStatus": "Submitted"
+      },
+      {
+        "note": "Triaged as Medium (Score 54). Assigned standard queue.",
+        "fromStatus": "Submitted",
+        "toStatus": "Under Review",
+        "actorRole": "AI Triage Engine",
+        "action": "AI Incident Triaged",
+        "timestamp": "2026-10-30T01:16:36.454Z",
+        "id": "LOG-019",
+        "actor": "CivicAI Autonomous Classifier"
+      }
+    ],
+    "id": "CIV-2026-3826",
+    "aiAnalysis": {
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "suggestedDepartment": "Water & Sewerage Board",
+      "recommendedCategory": "Water & Sanitation",
+      "priority": {
+        "level": "Medium",
+        "slaHours": 48,
+        "factors": {
+          "safetyRisk": 5,
+          "urgency": 5,
+          "publicImpact": 6
+        },
+        "score": 54,
+        "explanation": "Localized ADA accessibility obstruction."
+      },
+      "confidence": 0.89,
+      "recommendedAction": "Schedule vac-truck clearing within standard 48h maintenance cycle.",
+      "summary": "Storm drain blockage impeding ADA curb ramp with standing water accumulation.",
+      "detectedKeywords": [
+        "storm drain",
+        "clogged",
+        "leaves",
+        "wheelchair ramp"
+      ]
+    },
+    "location": {
+      "longitude": -122.419,
+      "landmark": "Corner of 6th & Oak",
+      "latitude": 37.7745,
+      "ward": "Ward 3 - Central District",
+      "address": "610 Oak Avenue"
+    },
+    "status": "Under Review",
+    "corroborationCount": 4,
+    "description": "Catch basin at 6th and Oak is completely clogged with wet leaves and litter. Water is pooling 3 inches high onto the wheelchair ramp.",
+    "title": "Storm drain clogged with tree branches and trash causing curb water pool",
+    "citizenContact": "rachel.k@example.com",
+    "assignedDepartment": "Water & Sewerage Board",
+    "citizenName": "Rachel Kim",
+    "createdAt": "2026-10-29T15:16:36.454Z"
+  },
+  {
+    "id": "CIV-2026-3851",
+    "aiAnalysis": {
+      "summary": "Severe road surface buckle along arterial park edge corridor.",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "detectedKeywords": [
+        "pavement buckle",
+        "tree root",
+        "lincoln way"
+      ],
+      "confidence": 0.91,
+      "priority": {
+        "slaHours": 48,
+        "score": 55,
+        "factors": {
+          "safetyRisk": 5,
+          "urgency": 5,
+          "publicImpact": 6
+        },
+        "explanation": "Vehicular suspension hazard.",
+        "level": "Medium"
+      },
+      "suggestedDepartment": "Public Works Department",
+      "recommendedCategory": "Roads & Potholes",
+      "recommendedAction": "Root trenching and asphalt repaving."
+    },
+    "citizenName": "Raymond Cole",
+    "location": {
+      "landmark": "Bordering Golden Gate Park entrance",
+      "longitude": -122.4645,
+      "ward": "Ward 4 - Sunset District",
+      "address": "7th Ave & Lincoln Way",
+      "latitude": 37.766
+    },
+    "status": "In Progress",
+    "description": "Road surface on 7th Ave near Golden Gate Park is cracked with an 8-foot long pavement ridge.",
+    "updatedAt": "2026-10-30T04:16:36.455Z",
+    "category": "Roads & Potholes",
+    "createdAt": "2026-10-29T13:16:36.455Z",
+    "assignedDepartment": "Public Works Department",
+    "priority": {
+      "factors": {
+        "safetyRisk": 5,
+        "publicImpact": 6,
+        "urgency": 5
+      },
+      "explanation": "Asphalt buckling from subsurface root intrusion.",
+      "level": "Medium",
+      "slaHours": 48,
+      "score": 55
+    },
+    "title": "Pavement buckle and asphalt fracture from eucalyptus root expansion",
+    "corroborationCount": 6,
+    "actionLogs": [
+      {
+        "id": "LOG-068",
+        "action": "Complaint Registered",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-29T13:16:36.455Z",
+        "toStatus": "Submitted",
+        "actor": "Raymond Cole",
+        "note": "Reported."
+      },
+      {
+        "actor": "Officer David Ramirez",
+        "actorRole": "Crew Lead",
+        "timestamp": "2026-10-30T04:16:36.455Z",
+        "action": "Asphalt Milling Started",
+        "id": "LOG-069",
+        "toStatus": "In Progress",
+        "fromStatus": "Submitted",
+        "note": "Asphalt milling machine on site to shave ridge."
+      }
+    ],
+    "assignedOfficer": "Officer David Ramirez (Crew Lead 4)",
+    "citizenContact": "raymond.c@example.com",
+    "isDemo": true
+  },
+  {
+    "category": "Waste & Sanitation",
+    "aiAnalysis": {
+      "confidence": 0.93,
+      "priority": {
+        "factors": {
+          "safetyRisk": 5,
+          "urgency": 6,
+          "publicImpact": 6
+        },
+        "level": "Medium",
+        "explanation": "Sanitation violation in high-density urban core.",
+        "score": 58,
+        "slaHours": 24
+      },
+      "summary": "Solid waste overflow in commercial alley creating biohazard and vermin vector.",
+      "detectedKeywords": [
+        "dumpster",
+        "garbage",
+        "rodents",
+        "odor",
+        "spilling"
+      ],
+      "recommendedCategory": "Waste & Sanitation",
+      "suggestedDepartment": "Waste Management Division",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "recommendedAction": "Dispatch immediate collection truck and issue commercial container compliance notice."
+    },
+    "createdAt": "2026-10-29T11:16:36.454Z",
+    "priority": {
+      "factors": {
+        "safetyRisk": 5,
+        "publicImpact": 6,
+        "urgency": 6
+      },
+      "level": "Medium",
+      "explanation": "Commercial waste overflow with rodent infestation and public sanitation hazard.",
+      "score": 58,
+      "slaHours": 24
+    },
+    "isDemo": true,
+    "title": "Overflowing commercial dumpsters spilling into pedestrian alleyway",
+    "location": {
+      "ward": "Ward 3 - Central District",
+      "landmark": "Service alley behind retail shops",
+      "address": "Jessie Street Alley near 4th",
+      "latitude": 37.7755,
+      "longitude": -122.4189
+    },
+    "citizenName": "Lillian Thorne",
+    "corroborationCount": 5,
+    "citizenContact": "lillian.t@example.com",
+    "actionLogs": [
+      {
+        "actor": "Lillian Thorne",
+        "action": "Complaint Registered",
+        "toStatus": "Submitted",
+        "id": "LOG-022",
+        "timestamp": "2026-10-29T11:16:36.454Z",
+        "actorRole": "Citizen",
+        "note": "Reported with photo."
+      },
+      {
+        "note": "Truck 12 dispatched for alley sweep.",
+        "action": "Dispatched Truck",
+        "toStatus": "In Progress",
+        "id": "LOG-023",
+        "actorRole": "Chief Dispatcher",
+        "fromStatus": "Submitted",
+        "timestamp": "2026-10-30T04:16:36.454Z",
+        "actor": "Elena Vance"
+      }
+    ],
+    "updatedAt": "2026-10-30T04:16:36.454Z",
+    "assignedOfficer": "Driver Sam Washington (Truck 12)",
+    "status": "In Progress",
+    "description": "Dumpsters behind Market St restaurants have not been collected in 4 days. Garbage bags are torn open on the asphalt attracting rodents and creating severe odor.",
+    "assignedDepartment": "Waste Management Division",
+    "id": "CIV-2026-3828"
+  },
+  {
+    "id": "CIV-2026-3847",
+    "citizenName": "David Sterling",
+    "assignedDepartment": "Parks & Recreation Agency",
+    "category": "Water & Sanitation",
+    "priority": {
+      "slaHours": 24,
+      "score": 49,
+      "explanation": "Continuous potable water loss from jammed mechanical valve.",
+      "level": "Medium",
+      "factors": {
+        "urgency": 5,
+        "safetyRisk": 3,
+        "publicImpact": 4
+      }
+    },
+    "status": "Resolved",
+    "description": "The outdoor water fountain at Presidio Wall Park is stuck fully on. Water is pooling around the base creating mud and wasting city water.",
+    "aiAnalysis": {
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "detectedKeywords": [
+        "drinking fountain",
+        "jammed on",
+        "wasting water",
+        "mud"
+      ],
+      "summary": "Continuous municipal potable water loss from mechanical valve failure in park.",
+      "recommendedAction": "Isolate local stopcock valve and install new spring-loaded bubbler cartridge.",
+      "recommendedCategory": "Water & Sanitation",
+      "suggestedDepartment": "Parks & Recreation Agency",
+      "priority": {
+        "score": 49,
+        "slaHours": 24,
+        "level": "Medium",
+        "factors": {
+          "safetyRisk": 3,
+          "publicImpact": 4,
+          "urgency": 5
+        },
+        "explanation": "Resource conservation priority."
+      },
+      "confidence": 0.95
+    },
+    "corroborationCount": 5,
+    "updatedAt": "2026-10-29T23:16:36.454Z",
+    "createdAt": "2026-10-29T09:16:36.454Z",
+    "actionLogs": [
+      {
+        "actor": "David Sterling",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-29T09:16:36.454Z",
+        "id": "LOG-061",
+        "action": "Complaint Registered",
+        "toStatus": "Submitted",
+        "note": "Reported."
+      },
+      {
+        "actor": "Park Specialist Liam O’Connor",
+        "fromStatus": "Submitted",
+        "toStatus": "Resolved",
+        "action": "Valve Replaced & Resolved",
+        "id": "LOG-062",
+        "actorRole": "Plumbing Lead",
+        "timestamp": "2026-10-29T23:16:36.454Z",
+        "note": "Disassembled cartridge valve, replaced worn internal return spring, verified shutoff."
+      }
+    ],
+    "assignedOfficer": "Park Specialist Liam O’Connor",
+    "location": {
+      "ward": "Ward 2 - Presidio Heights",
+      "latitude": 37.791,
+      "address": "Presidio Wall Playground",
+      "landmark": "Next to tennis courts",
+      "longitude": -122.454
+    },
+    "title": "Public drinking fountain handle jammed on and wasting continuous stream",
+    "resolutionNote": "Disassembled cartridge valve, replaced worn internal return spring, verified shutoff.",
+    "citizenContact": "david.s@example.com",
+    "isDemo": true
+  },
+  {
+    "id": "CIV-2026-3832",
+    "title": "Fire hydrant flange cracked and trickling water continuously onto sidewalk",
+    "location": {
+      "latitude": 37.766,
+      "ward": "Ward 5 - Mission Corridor",
+      "landmark": "Near pharmacy parking lot",
+      "address": "1502 Mission St",
+      "longitude": -122.4202
+    },
+    "status": "Under Review",
+    "actionLogs": [
+      {
+        "id": "LOG-036",
+        "toStatus": "Submitted",
+        "action": "Complaint Registered",
+        "timestamp": "2026-10-29T07:16:36.454Z",
+        "note": "Reported with photo.",
+        "actor": "Anita Roy",
+        "actorRole": "Citizen"
+      },
+      {
+        "timestamp": "2026-10-29T19:16:36.454Z",
+        "toStatus": "Under Review",
+        "actorRole": "AI Triage Engine",
+        "actor": "CivicAI Autonomous Classifier",
+        "fromStatus": "Submitted",
+        "note": "Score 62 calculated. Placed in water maintenance priority queue.",
+        "action": "AI Incident Triaged",
+        "id": "LOG-037"
+      }
+    ],
+    "createdAt": "2026-10-29T07:16:36.454Z",
+    "updatedAt": "2026-10-29T19:16:36.454Z",
+    "description": "Hydrant on corner of 15th & Mission was struck by a backing vehicle. The base is visibly cracked and water is steadily seeping out across the walkway.",
+    "isDemo": true,
+    "corroborationCount": 6,
+    "citizenName": "Anita Roy",
+    "aiAnalysis": {
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "recommendedCategory": "Water & Sanitation",
+      "suggestedDepartment": "Water & Sewerage Board",
+      "recommendedAction": "Pressure test and replace sacrificial breakaway flange bolts.",
+      "detectedKeywords": [
+        "fire hydrant",
+        "cracked",
+        "trickling",
+        "struck by vehicle"
+      ],
+      "confidence": 0.91,
+      "summary": "Damaged fire hydrant casting causing steady leak and emergency response compromise.",
+      "priority": {
+        "factors": {
+          "urgency": 6,
+          "publicImpact": 6,
+          "safetyRisk": 6
+        },
+        "score": 62,
+        "slaHours": 24,
+        "explanation": "Fire safety infrastructure readiness.",
+        "level": "Medium"
+      }
+    },
+    "priority": {
+      "score": 62,
+      "slaHours": 24,
+      "factors": {
+        "safetyRisk": 6,
+        "publicImpact": 6,
+        "urgency": 6
+      },
+      "level": "Medium",
+      "explanation": "Compromised municipal fire suppression readiness and steady water loss."
+    },
+    "citizenContact": "anita.r@example.com",
+    "assignedDepartment": "Water & Sewerage Board",
+    "category": "Water & Sanitation"
+  },
+  {
+    "description": "The yellow pedestrian call button is jammed into the housing and does not register presses or give auditory chirps.",
+    "corroborationCount": 5,
+    "category": "Traffic & Signage",
+    "priority": {
+      "factors": {
+        "urgency": 4,
+        "publicImpact": 6,
+        "safetyRisk": 4
+      },
+      "level": "Medium",
+      "explanation": "Compromised pedestrian phase activation on major transit boulevard.",
+      "score": 47,
+      "slaHours": 48
+    },
+    "createdAt": "2026-10-29T05:16:36.455Z",
+    "actionLogs": [
+      {
+        "action": "Complaint Registered",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-29T05:16:36.455Z",
+        "note": "Reported.",
+        "id": "LOG-071",
+        "actor": "Simon Baker",
+        "toStatus": "Submitted"
+      }
+    ],
+    "title": "Pedestrian walk button stuck depressed at Van Ness & Hayes",
+    "citizenName": "Simon Baker",
+    "status": "Under Review",
+    "id": "CIV-2026-3853",
+    "updatedAt": "2026-10-29T23:16:36.455Z",
+    "aiAnalysis": {
+      "suggestedDepartment": "Traffic & Road Safety Authority",
+      "recommendedCategory": "Traffic & Signage",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "recommendedAction": "Replace piezoresistive push-button assembly.",
+      "detectedKeywords": [
+        "pedestrian button",
+        "stuck depressed",
+        "van ness",
+        "auditory chirp"
+      ],
+      "priority": {
+        "level": "Medium",
+        "factors": {
+          "safetyRisk": 4,
+          "urgency": 4,
+          "publicImpact": 6
+        },
+        "explanation": "Pedestrian accessibility delay.",
+        "score": 47,
+        "slaHours": 48
+      },
+      "confidence": 0.94,
+      "summary": "Mechanical failure of ADA accessible pedestrian push-button station."
+    },
+    "citizenContact": "simon.b@example.com",
+    "location": {
+      "latitude": 37.7765,
+      "address": "Van Ness Ave & Hayes St",
+      "longitude": -122.42,
+      "landmark": "Civic Center transit island",
+      "ward": "Ward 3 - Central District"
+    },
+    "isDemo": true
+  },
+  {
+    "actionLogs": [
+      {
+        "toStatus": "Submitted",
+        "actor": "Roger Sterling",
+        "actorRole": "Citizen",
+        "action": "Complaint Registered",
+        "timestamp": "2026-10-29T05:16:36.454Z",
+        "note": "Reported.",
+        "id": "LOG-055"
+      },
+      {
+        "action": "Collection Scheduled",
+        "actorRole": "Waste Operations",
+        "id": "LOG-056",
+        "timestamp": "2026-10-30T03:16:36.454Z",
+        "note": "Flatbed truck en route for pickup.",
+        "actor": "Driver Sam Washington",
+        "fromStatus": "Submitted",
+        "toStatus": "In Progress"
+      }
+    ],
+    "createdAt": "2026-10-29T05:16:36.454Z",
+    "priority": {
+      "score": 51,
+      "factors": {
+        "publicImpact": 5,
+        "safetyRisk": 5,
+        "urgency": 5
+      },
+      "level": "Medium",
+      "slaHours": 48,
+      "explanation": "Illegal bulky waste accumulation in service access alley."
+    },
+    "corroborationCount": 4,
+    "status": "In Progress",
+    "category": "Waste & Sanitation",
+    "title": "Two discarded mattresses and broken furniture dumped behind commercial strip",
+    "assignedOfficer": "Driver Sam Washington (Truck 12)",
+    "assignedDepartment": "Waste Management Division",
+    "isDemo": true,
+    "citizenContact": "roger.s@example.com",
+    "id": "CIV-2026-3843",
+    "description": "Someone dumped worn mattresses, a rotting sofa, and construction drywall boards in the service alleyway behind Irving St shops.",
+    "updatedAt": "2026-10-30T03:16:36.454Z",
+    "citizenName": "Roger Sterling",
+    "location": {
+      "landmark": "Service alley behind grocery store",
+      "latitude": 37.7638,
+      "ward": "Ward 1 - Richmond District",
+      "longitude": -122.4665,
+      "address": "Irving St Alley near 9th Ave"
+    },
+    "aiAnalysis": {
+      "detectedKeywords": [
+        "mattresses",
+        "broken furniture",
+        "dumped",
+        "alleyway"
+      ],
+      "summary": "Bulky household item illegal dumping obstructing service alleyway.",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "priority": {
+        "factors": {
+          "urgency": 5,
+          "safetyRisk": 5,
+          "publicImpact": 5
+        },
+        "score": 51,
+        "slaHours": 48,
+        "level": "Medium",
+        "explanation": "Sanitation and fire hazard in narrow alleyway."
+      },
+      "confidence": 0.92,
+      "recommendedAction": "Dispatch flatbed collection truck and review nearby security camera footage.",
+      "suggestedDepartment": "Waste Management Division",
+      "recommendedCategory": "Waste & Sanitation"
+    }
+  },
+  {
+    "description": "Popped my tire hitting a massive hole right outside the school gate on Oak Avenue. Another parent had their rim bent 10 minutes ago. Extremely dangerous for kids and scooters.",
+    "aiAnalysis": {
+      "recommendedCategory": "Roads & Potholes",
+      "suggestedDepartment": "Public Works Department",
+      "confidence": 0.95,
+      "detectedKeywords": [
+        "pothole",
+        "popped tire",
+        "school gate",
+        "rim bent"
+      ],
+      "summary": "Severe road surface defect causing vehicular rim damage at elementary school entrance.",
+      "recommendedAction": "Consolidate dispatch with parent incident CIV-2026-4819.",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "priority": {
+        "slaHours": 4,
+        "explanation": "Direct pedestrian and vehicular hazard adjacent to educational facility.",
+        "level": "Critical",
+        "score": 87,
+        "factors": {
+          "publicImpact": 8,
+          "urgency": 9,
+          "safetyRisk": 9
+        }
+      }
+    },
+    "assignedOfficer": "Officer David Ramirez (Crew Lead 4)",
+    "updatedAt": "2026-10-29T10:16:36.454Z",
+    "location": {
+      "latitude": 37.775,
+      "ward": "Ward 3 - Central District",
+      "longitude": -122.4195,
+      "landmark": "Near Central Elementary Pedestrian Gate",
+      "address": "430 Oak Avenue"
+    },
+    "citizenName": "Sarah Jenkins",
+    "isDemo": true,
+    "corroborationCount": 8,
+    "title": "Huge pothole damaged my front tire in front of school entrance Oak Ave",
+    "duplicateInfo": {
+      "reason": "Spatial proximity (14 meters) and high textual semantic overlap describing identical school gate pothole incident.",
+      "distanceMeters": 14,
+      "confidenceScore": 94,
+      "parentComplaintId": "CIV-2026-4819",
+      "isDuplicate": true
+    },
+    "id": "CIV-2026-4820",
+    "createdAt": "2026-10-29T03:16:36.454Z",
+    "assignedDepartment": "Public Works Department",
+    "status": "Assigned",
+    "actionLogs": [
+      {
+        "toStatus": "Submitted",
+        "action": "Complaint Registered",
+        "note": "Report captured via CivicAI web portal.",
+        "id": "LOG-005",
+        "timestamp": "2026-10-29T03:16:36.454Z",
+        "actorRole": "Citizen",
+        "actor": "Sarah Jenkins"
+      },
+      {
+        "action": "Duplicate Linked to Parent",
+        "actorRole": "AI Deduplication Engine",
+        "timestamp": "2026-10-29T10:16:36.454Z",
+        "note": "Linked as verified duplicate of parent CIV-2026-4819. Associated with Crew 4 work order.",
+        "actor": "CivicAI Autonomous Classifier",
+        "toStatus": "Assigned",
+        "fromStatus": "Submitted",
+        "id": "LOG-006"
+      }
+    ],
+    "citizenContact": "sarah.j@example.com",
+    "priority": {
+      "explanation": "Vehicle rim damage and pedestrian safety risk adjacent to elementary school gate.",
+      "level": "Critical",
+      "factors": {
+        "urgency": 9,
+        "safetyRisk": 9,
+        "publicImpact": 8
+      },
+      "slaHours": 4,
+      "score": 87
+    },
+    "category": "Roads & Potholes"
+  },
+  {
+    "id": "CIV-2026-3845",
+    "location": {
+      "address": "3420 California Street",
+      "landmark": "Construction site at 3420 California",
+      "ward": "Ward 2 - Presidio Heights",
+      "longitude": -122.451,
+      "latitude": 37.7865
+    },
+    "citizenName": "Jonathan Meyer",
+    "aiAnalysis": {
+      "recommendedAction": "Dispatch environmental noise enforcement officer to issue written cease-and-desist.",
+      "suggestedDepartment": "Public Health & Environment",
+      "recommendedCategory": "Noise & Pollution",
+      "priority": {
+        "level": "Medium",
+        "factors": {
+          "safetyRisk": 3,
+          "publicImpact": 5,
+          "urgency": 4
+        },
+        "explanation": "Noise ordinance violation.",
+        "score": 42,
+        "slaHours": 48
+      },
+      "summary": "Non-permitted early morning construction equipment operation in residential zone.",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "detectedKeywords": [
+        "diesel generator",
+        "5:30 AM",
+        "noise ordinance",
+        "contractor"
+      ],
+      "confidence": 0.93
+    },
+    "updatedAt": "2026-10-30T01:16:36.454Z",
+    "citizenContact": "jonathan.m@example.com",
+    "isDemo": true,
+    "description": "Contractor building renovation on California St starts their loud diesel generator at 5:30 AM every weekday, violating city noise ordinances.",
+    "assignedOfficer": "Inspector Angela Miller",
+    "createdAt": "2026-10-29T01:16:36.454Z",
+    "corroborationCount": 5,
+    "actionLogs": [
+      {
+        "toStatus": "Submitted",
+        "timestamp": "2026-10-29T01:16:36.454Z",
+        "actorRole": "Citizen",
+        "actor": "Jonathan Meyer",
+        "note": "Reported.",
+        "id": "LOG-058",
+        "action": "Complaint Registered"
+      },
+      {
+        "toStatus": "Assigned",
+        "note": "Assigned to Inspector Miller for 6 AM site audit.",
+        "actor": "Elena Vance",
+        "id": "LOG-059",
+        "timestamp": "2026-10-30T01:16:36.454Z",
+        "actorRole": "Chief Dispatcher",
+        "fromStatus": "Submitted",
+        "action": "Assigned Inspector"
+      }
+    ],
+    "assignedDepartment": "Public Health & Environment",
+    "status": "Assigned",
+    "title": "Commercial diesel generator running continuously at 5:30 AM in residential zone",
+    "category": "Noise & Pollution",
+    "priority": {
+      "score": 42,
+      "slaHours": 48,
+      "level": "Medium",
+      "factors": {
+        "publicImpact": 5,
+        "safetyRisk": 3,
+        "urgency": 4
+      },
+      "explanation": "Repeated early-morning municipal noise ordinance violation."
+    }
+  },
+  {
+    "location": {
+      "longitude": -122.433,
+      "landmark": "Outside bakery entrance",
+      "address": "24th St & Noe St",
+      "latitude": 37.7515,
+      "ward": "Ward 5 - Mission Corridor"
+    },
+    "title": "Blue recycling bin tipped over with glass bottles scattered on pedestrian sidewalk",
+    "actionLogs": [
+      {
+        "note": "Reported.",
+        "action": "Complaint Registered",
+        "toStatus": "Submitted",
+        "actor": "Patrick O’Neil",
+        "actorRole": "Citizen",
+        "id": "LOG-073",
+        "timestamp": "2026-10-28T21:16:36.455Z"
+      },
+      {
+        "actor": "Driver Sam Washington",
+        "fromStatus": "Submitted",
+        "toStatus": "Resolved",
+        "note": "Sidewalk swept, glass shards removed, and cart uprighted.",
+        "actorRole": "Waste Operations",
+        "id": "LOG-074",
+        "timestamp": "2026-10-29T01:16:36.455Z",
+        "action": "Swept & Resolved"
+      }
+    ],
+    "status": "Resolved",
+    "createdAt": "2026-10-28T21:16:36.455Z",
+    "corroborationCount": 4,
+    "updatedAt": "2026-10-29T01:16:36.455Z",
+    "assignedOfficer": "Driver Sam Washington (Truck 12)",
+    "description": "High wind knocked over municipal recycling cart at 24th & Noe. Broken beer bottles and cans blocking elderly foot traffic.",
+    "aiAnalysis": {
+      "recommendedAction": "Rapid sweep dispatch for glass shards.",
+      "detectedKeywords": [
+        "broken glass",
+        "recycling bin",
+        "sidewalk"
+      ],
+      "recommendedCategory": "Waste & Sanitation",
+      "suggestedDepartment": "Waste Management Division",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "confidence": 0.96,
+      "summary": "Broken glass debris from wind-overturned municipal recycling container.",
+      "priority": {
+        "level": "Medium",
+        "slaHours": 12,
+        "score": 48,
+        "factors": {
+          "publicImpact": 5,
+          "safetyRisk": 5,
+          "urgency": 5
+        },
+        "explanation": "Pedestrian and pet laceration risk."
+      }
+    },
+    "resolutionNote": "Sidewalk swept, glass shards removed, and cart uprighted.",
+    "isDemo": true,
+    "citizenContact": "patrick.o@example.com",
+    "priority": {
+      "explanation": "Broken glass hazard on active commercial sidewalk.",
+      "factors": {
+        "publicImpact": 5,
+        "safetyRisk": 5,
+        "urgency": 5
+      },
+      "level": "Medium",
+      "slaHours": 12,
+      "score": 48
+    },
+    "id": "CIV-2026-3855",
+    "category": "Waste & Sanitation",
+    "assignedDepartment": "Waste Management Division",
+    "citizenName": "Patrick O’Neil"
+  },
+  {
+    "createdAt": "2026-10-28T21:16:36.454Z",
+    "location": {
+      "address": "740 Clement Street",
+      "latitude": 37.7825,
+      "longitude": -122.4675,
+      "ward": "Ward 1 - Richmond District",
+      "landmark": "Outside Clement Senior Center"
+    },
+    "assignedDepartment": "Public Works Department",
+    "citizenContact": "barbara.d@example.com",
+    "actionLogs": [
+      {
+        "actorRole": "Citizen",
+        "note": "Reported.",
+        "timestamp": "2026-10-28T21:16:36.454Z",
+        "action": "Complaint Registered",
+        "toStatus": "Submitted",
+        "id": "LOG-044",
+        "actor": "Barbara Davis"
+      },
+      {
+        "id": "LOG-045",
+        "actorRole": "Chief Dispatcher",
+        "note": "Assigned to sidewalk maintenance crew.",
+        "timestamp": "2026-10-29T23:16:36.454Z",
+        "action": "Department Assignment",
+        "actor": "Elena Vance",
+        "fromStatus": "Submitted",
+        "toStatus": "Assigned"
+      }
+    ],
+    "citizenName": "Barbara Davis",
+    "isDemo": true,
+    "description": "Concrete sidewalk panel outside senior housing on Clement St is raised three inches. An elderly resident tripped and injured their knee yesterday.",
+    "corroborationCount": 7,
+    "id": "CIV-2026-3837",
+    "status": "Assigned",
+    "category": "Roads & Potholes",
+    "priority": {
+      "slaHours": 48,
+      "score": 64,
+      "factors": {
+        "safetyRisk": 6,
+        "urgency": 6,
+        "publicImpact": 7
+      },
+      "explanation": "3-inch vertical sidewalk displacement adjacent to senior community facility.",
+      "level": "Medium"
+    },
+    "aiAnalysis": {
+      "recommendedAction": "Grind high concrete edge within 48h; schedule root prune and replacement panel.",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "summary": "Trip-and-fall hazard from tree root displacement outside senior residence.",
+      "detectedKeywords": [
+        "sidewalk lifted",
+        "tree roots",
+        "senior center",
+        "tripped"
+      ],
+      "recommendedCategory": "Roads & Potholes",
+      "suggestedDepartment": "Public Works Department",
+      "confidence": 0.93,
+      "priority": {
+        "explanation": "Elevated senior fall liability.",
+        "score": 64,
+        "factors": {
+          "safetyRisk": 6,
+          "urgency": 6,
+          "publicImpact": 7
+        },
+        "level": "Medium",
+        "slaHours": 48
+      }
+    },
+    "assignedOfficer": "Officer David Ramirez (Crew Lead 4)",
+    "updatedAt": "2026-10-29T23:16:36.454Z",
+    "title": "Severe sidewalk concrete slab lifted 3 inches by ficus tree roots"
+  },
+  {
+    "location": {
+      "landmark": "Opposite Central Elementary School",
+      "address": "420 Oak Avenue & 4th Street",
+      "longitude": -122.4194,
+      "latitude": 37.7749,
+      "ward": "Ward 3 - Central District"
+    },
+    "title": "Severe crater pothole causing vehicle axle damage near school crossing",
+    "actionLogs": [
+      {
+        "actor": "Marcus Bennett",
+        "timestamp": "2026-10-28T21:16:36.454Z",
+        "actorRole": "Citizen",
+        "id": "LOG-001",
+        "toStatus": "Submitted",
+        "action": "Complaint Registered",
+        "note": "Report captured via CivicAI web portal with geo-location verification."
+      },
+      {
+        "toStatus": "Under Review",
+        "actorRole": "AI Triage Engine",
+        "note": "Score 89 calculated (Urgency: 9, Impact: 9, Safety: 9). Flagged as high-liability school zone.",
+        "timestamp": "2026-10-29T01:16:36.454Z",
+        "fromStatus": "Submitted",
+        "action": "AI Incident Triaged",
+        "id": "LOG-002",
+        "actor": "CivicAI Autonomous Classifier"
+      },
+      {
+        "note": "Assigned to Public Works Emergency Road Crew 4.",
+        "action": "Department Assignment",
+        "fromStatus": "Under Review",
+        "id": "LOG-003",
+        "toStatus": "Assigned",
+        "timestamp": "2026-10-29T09:16:36.454Z",
+        "actor": "Elena Vance",
+        "actorRole": "Chief Dispatcher"
+      },
+      {
+        "actor": "Officer David Ramirez",
+        "id": "LOG-004",
+        "actorRole": "Field Supervisor",
+        "timestamp": "2026-10-30T05:16:36.454Z",
+        "fromStatus": "Assigned",
+        "action": "Crew Dispatched",
+        "toStatus": "In Progress",
+        "note": "Safety perimeter cones and warning barricades positioned. Hot asphalt patch truck en route."
+      }
+    ],
+    "status": "In Progress",
+    "createdAt": "2026-10-28T21:16:36.448Z",
+    "corroborationCount": 14,
+    "assignedOfficer": "Officer David Ramirez (Crew Lead 4)",
+    "updatedAt": "2026-10-30T05:16:36.454Z",
+    "description": "Deep 3-foot wide pothole right at the intersection of Oak Ave and 4th St. Multiple cars have blown tires today during morning school drop-off. Metal rebar is visible under the asphalt and it fills with rainwater obscuring the depth.",
+    "aiAnalysis": {
+      "recommendedAction": "Immediate temporary cold patch deployment followed by full-depth saw-cut hot asphalt restoration.",
+      "summary": "High-severity structural asphalt failure with exposed reinforcement at school crossing zone.",
+      "suggestedDepartment": "Public Works Department",
+      "recommendedCategory": "Roads & Potholes",
+      "confidence": 0.94,
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "priority": {
+        "explanation": "Direct pedestrian and vehicular hazard adjacent to educational facility.",
+        "slaHours": 4,
+        "level": "Critical",
+        "factors": {
+          "urgency": 9,
+          "safetyRisk": 9,
+          "publicImpact": 9
+        },
+        "score": 89
+      },
+      "detectedKeywords": [
+        "pothole",
+        "axle damage",
+        "school crossing",
+        "rebar",
+        "asphalt"
+      ]
+    },
+    "isDemo": true,
+    "citizenContact": "marcus.b@example.com",
+    "priority": {
+      "score": 89,
+      "slaHours": 4,
+      "factors": {
+        "safetyRisk": 9,
+        "urgency": 9,
+        "publicImpact": 9
+      },
+      "level": "Critical",
+      "explanation": "Critical safety hazard directly in active school pedestrian zone; structural rebar exposed with imminent vehicular collision and cyclist injury hazard."
+    },
+    "id": "CIV-2026-4819",
+    "category": "Roads & Potholes",
+    "assignedDepartment": "Public Works Department",
+    "citizenName": "Marcus Bennett"
+  },
+  {
+    "location": {
+      "landmark": "Outside 2200 Lake",
+      "ward": "Ward 1 - Richmond District",
+      "address": "2200 Lake Street & 22nd Ave",
+      "latitude": 37.785,
+      "longitude": -122.482
+    },
+    "assignedDepartment": "Municipal Electricity Bureau",
+    "assignedOfficer": "Officer Ray Sterling",
+    "updatedAt": "2026-10-29T21:16:36.454Z",
+    "actionLogs": [
+      {
+        "note": "Reported.",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-28T19:16:36.454Z",
+        "actor": "Victor Ramos",
+        "action": "Complaint Registered",
+        "id": "LOG-064",
+        "toStatus": "Submitted"
+      },
+      {
+        "fromStatus": "Submitted",
+        "actor": "Elena Vance",
+        "toStatus": "Assigned",
+        "action": "Department Assignment",
+        "id": "LOG-065",
+        "timestamp": "2026-10-29T21:16:36.454Z",
+        "note": "Assigned to LED retrofit night crew.",
+        "actorRole": "Chief Dispatcher"
+      }
+    ],
+    "citizenContact": "victor.r@example.com",
+    "status": "Assigned",
+    "corroborationCount": 4,
+    "id": "CIV-2026-3849",
+    "title": "Streetlight strobing rapidly every 10 seconds right outside bedroom window",
+    "description": "Streetlight pole #4489 at Lake St and 22nd Ave is cycling on and off in an epileptic strobe pattern all night. Disturbs entire neighborhood.",
+    "aiAnalysis": {
+      "recommendedAction": "Replace HPS ballast and retrofit fixture with solid-state LED luminaire.",
+      "suggestedDepartment": "Municipal Electricity Bureau",
+      "recommendedCategory": "Streetlights & Electrical",
+      "confidence": 0.94,
+      "priority": {
+        "score": 46,
+        "explanation": "Residential nuisance and partial night outage.",
+        "factors": {
+          "safetyRisk": 3,
+          "publicImpact": 5,
+          "urgency": 4
+        },
+        "slaHours": 48,
+        "level": "Medium"
+      },
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "detectedKeywords": [
+        "streetlight",
+        "strobing",
+        "cycling on off",
+        "ballast"
+      ],
+      "summary": "Ballast failure causing periodic thermal cycling on residential streetlight fixture."
+    },
+    "isDemo": true,
+    "priority": {
+      "slaHours": 48,
+      "factors": {
+        "publicImpact": 5,
+        "urgency": 4,
+        "safetyRisk": 3
+      },
+      "explanation": "End-of-life sodium ballast cycling creating severe residential light flicker.",
+      "score": 46,
+      "level": "Medium"
+    },
+    "category": "Streetlights & Electrical",
+    "citizenName": "Victor Ramos",
+    "createdAt": "2026-10-28T19:16:36.454Z"
+  },
+  {
+    "id": "CIV-2026-3833",
+    "citizenName": "Gabriel Solis",
+    "aiAnalysis": {
+      "confidence": 0.9,
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "suggestedDepartment": "Public Works Department",
+      "recommendedCategory": "Roads & Potholes",
+      "priority": {
+        "factors": {
+          "safetyRisk": 4,
+          "urgency": 5,
+          "publicImpact": 5
+        },
+        "score": 48,
+        "explanation": "Secondary sidewalk traffic hazard.",
+        "level": "Medium",
+        "slaHours": 72
+      },
+      "detectedKeywords": [
+        "potholes",
+        "asphalt",
+        "sidewalk encroachment",
+        "capp street"
+      ],
+      "summary": "Multiple residential roadway defects inducing secondary sidewalk encroachment behavior.",
+      "recommendedAction": "Schedule asphalt patch truck for full block smoothing."
+    },
+    "status": "Submitted",
+    "category": "Roads & Potholes",
+    "priority": {
+      "level": "Medium",
+      "factors": {
+        "publicImpact": 5,
+        "urgency": 5,
+        "safetyRisk": 4
+      },
+      "slaHours": 72,
+      "explanation": "Residential roadway potholes causing sidewalk driving encroachment.",
+      "score": 48
+    },
+    "description": "Three potholes spanning the width of the roadway on Capp between 18th and 19th. Delivery vans drive onto the sidewalk to bypass them.",
+    "createdAt": "2026-10-28T17:16:36.454Z",
+    "location": {
+      "landmark": "Between 18th and 19th",
+      "longitude": -122.4185,
+      "ward": "Ward 5 - Mission Corridor",
+      "address": "720 Capp Street",
+      "latitude": 37.7628
+    },
+    "citizenContact": "gabriel.s@example.com",
+    "updatedAt": "2026-10-29T15:16:36.454Z",
+    "title": "Series of asphalt potholes along Capp Street residential block",
+    "actionLogs": [
+      {
+        "timestamp": "2026-10-28T17:16:36.454Z",
+        "toStatus": "Submitted",
+        "actorRole": "Citizen",
+        "id": "LOG-038",
+        "action": "Complaint Registered",
+        "actor": "Gabriel Solis",
+        "note": "Report submitted."
+      }
+    ],
+    "corroborationCount": 3,
+    "isDemo": true
+  },
+  {
+    "description": "Litter has piled up along the curb at the Fell St highway offramp.",
+    "createdAt": "2026-10-28T13:16:36.455Z",
+    "isDemo": true,
+    "id": "CIV-2026-3852",
+    "corroborationCount": 2,
+    "citizenName": "Melinda Brooks",
+    "location": {
+      "ward": "Ward 3 - Central District",
+      "address": "Fell Street Off-Ramp & Octavia",
+      "latitude": 37.774,
+      "landmark": "Highway off-ramp landing",
+      "longitude": -122.424
+    },
+    "aiAnalysis": {
+      "recommendedAction": "Schedule mechanical street sweeper during weekly night shift.",
+      "priority": {
+        "factors": {
+          "safetyRisk": 2,
+          "publicImpact": 3,
+          "urgency": 2
+        },
+        "level": "Low",
+        "slaHours": 120,
+        "explanation": "Cosmetic street cleaning.",
+        "score": 25
+      },
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "recommendedCategory": "Waste & Sanitation",
+      "suggestedDepartment": "Waste Management Division",
+      "confidence": 0.89,
+      "summary": "Highway ramp litter accumulation.",
+      "detectedKeywords": [
+        "litter",
+        "windblown paper",
+        "off-ramp"
+      ]
+    },
+    "category": "Waste & Sanitation",
+    "priority": {
+      "score": 25,
+      "factors": {
+        "safetyRisk": 2,
+        "urgency": 2,
+        "publicImpact": 3
+      },
+      "slaHours": 120,
+      "level": "Low",
+      "explanation": "Windblown litter requiring standard street mechanical sweep."
+    },
+    "actionLogs": [
+      {
+        "note": "Reported.",
+        "actor": "Melinda Brooks",
+        "id": "LOG-070",
+        "toStatus": "Submitted",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-28T13:16:36.455Z",
+        "action": "Complaint Registered"
+      }
+    ],
+    "status": "Submitted",
+    "title": "Plastic cups and windblown paper accumulation along highway offramp curb",
+    "updatedAt": "2026-10-29T13:16:36.455Z",
+    "citizenContact": "melinda.b@example.com"
+  },
+  {
+    "assignedOfficer": "Officer Ray Sterling",
+    "category": "Streetlights & Electrical",
+    "actionLogs": [
+      {
+        "toStatus": "Submitted",
+        "action": "Complaint Registered",
+        "note": "Submitted via portal.",
+        "timestamp": "2026-10-28T09:16:36.454Z",
+        "actorRole": "Citizen",
+        "actor": "Michael Wong",
+        "id": "LOG-020"
+      },
+      {
+        "toStatus": "Assigned",
+        "note": "Assigned to Municipal Electricity Night Crew.",
+        "action": "Department Assignment",
+        "fromStatus": "Submitted",
+        "actor": "Elena Vance",
+        "timestamp": "2026-10-29T21:16:36.454Z",
+        "actorRole": "Chief Dispatcher",
+        "id": "LOG-021"
+      }
+    ],
+    "priority": {
+      "score": 72,
+      "slaHours": 24,
+      "level": "High",
+      "explanation": "Multi-pole circuit breaker trip in high-pedestrian transit walkway elevating public safety and crime vulnerability.",
+      "factors": {
+        "publicImpact": 8,
+        "urgency": 7,
+        "safetyRisk": 7
+      }
+    },
+    "isDemo": true,
+    "title": "Complete dark corridor along 4th Street from Market to Howard",
+    "createdAt": "2026-10-28T09:16:36.454Z",
+    "citizenName": "Michael Wong",
+    "id": "CIV-2026-3827",
+    "corroborationCount": 16,
+    "status": "Assigned",
+    "updatedAt": "2026-10-29T21:16:36.454Z",
+    "citizenContact": "michael.w@example.com",
+    "description": "All 8 streetlights along this entire two-block stretch have been completely dark for 3 consecutive nights. Pedestrians feel unsafe walking from the subway.",
+    "aiAnalysis": {
+      "summary": "Circuit-level failure extinguishing 8 streetlights along commuter pedestrian corridor.",
+      "detectedKeywords": [
+        "streetlights",
+        "dark corridor",
+        "subway",
+        "unsafe"
+      ],
+      "recommendedAction": "Inspect transformer panel and secondary distribution feed line.",
+      "confidence": 0.91,
+      "priority": {
+        "slaHours": 24,
+        "level": "High",
+        "factors": {
+          "publicImpact": 8,
+          "safetyRisk": 7,
+          "urgency": 7
+        },
+        "score": 72,
+        "explanation": "Elevated nighttime pedestrian hazard on major transit artery."
+      },
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "suggestedDepartment": "Municipal Electricity Bureau",
+      "recommendedCategory": "Streetlights & Electrical"
+    },
+    "assignedDepartment": "Municipal Electricity Bureau",
+    "location": {
+      "address": "4th Street between Market & Howard",
+      "latitude": 37.7751,
+      "longitude": -122.4185,
+      "ward": "Ward 3 - Central District",
+      "landmark": "Transit connector walkway"
+    }
+  },
+  {
+    "resolutionNote": "Main key valve isolated within 28 minutes. New breakaway hydrant body seated and flow tested.",
+    "citizenContact": "franklin.p@example.com",
+    "category": "Water & Sanitation",
+    "priority": {
+      "level": "High",
+      "explanation": "Active water geyser contacting electrical wires.",
+      "factors": {
+        "safetyRisk": 8,
+        "publicImpact": 7,
+        "urgency": 9
+      },
+      "score": 79,
+      "slaHours": 4
+    },
+    "corroborationCount": 20,
+    "isDemo": true,
+    "citizenName": "Franklin Pierce",
+    "assignedDepartment": "Water & Sewerage Board",
+    "aiAnalysis": {
+      "priority": {
+        "slaHours": 4,
+        "explanation": "Extreme utility flow and wire proximity.",
+        "level": "High",
+        "factors": {
+          "publicImpact": 7,
+          "urgency": 9,
+          "safetyRisk": 8
+        },
+        "score": 79
+      },
+      "recommendedAction": "Emergency street key isolation and hydrant body replacement.",
+      "summary": "Emergency hydrant shear with uncontrolled vertical water discharge into electrical distribution network.",
+      "confidence": 0.98,
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "detectedKeywords": [
+        "hydrant sheared",
+        "geyser",
+        "power lines",
+        "flooding"
+      ],
+      "suggestedDepartment": "Water & Sewerage Board",
+      "recommendedCategory": "Water & Sanitation"
+    },
+    "description": "A hit-and-run driver sheared off the hydrant at 19th Ave & Noriega. Massive water column is blasting into overhead power lines and flooding the street.",
+    "createdAt": "2026-10-28T09:16:36.454Z",
+    "status": "Resolved",
+    "actionLogs": [
+      {
+        "timestamp": "2026-10-28T09:16:36.454Z",
+        "actor": "Franklin Pierce",
+        "actorRole": "Citizen",
+        "toStatus": "Submitted",
+        "id": "LOG-051",
+        "note": "Reported.",
+        "action": "Complaint Registered"
+      },
+      {
+        "actorRole": "Emergency Utility Lead",
+        "timestamp": "2026-10-28T15:16:36.454Z",
+        "toStatus": "Resolved",
+        "action": "Repaired & Restored",
+        "note": "Main key valve isolated within 28 minutes. New breakaway hydrant body seated and flow tested.",
+        "id": "LOG-052",
+        "actor": "Supervisor Thomas Cole",
+        "fromStatus": "Submitted"
+      }
+    ],
+    "updatedAt": "2026-10-28T15:16:36.454Z",
+    "id": "CIV-2026-3841",
+    "assignedOfficer": "Supervisor Thomas Cole",
+    "title": "Vehicle collision sheared fire hydrant sending 30ft water geyser into air",
+    "location": {
+      "ward": "Ward 4 - Sunset District",
+      "longitude": -122.476,
+      "latitude": 37.754,
+      "landmark": "Near gas station corner",
+      "address": "19th Ave & Noriega St"
+    }
+  },
+  {
+    "location": {
+      "landmark": "Northwest corner",
+      "ward": "Ward 1 - Richmond District",
+      "address": "14th Ave & Anza St",
+      "longitude": -122.473,
+      "latitude": 37.779
+    },
+    "createdAt": "2026-10-28T07:16:36.455Z",
+    "assignedOfficer": "Officer Priya Nair",
+    "citizenContact": "leah.s@example.com",
+    "resolutionNote": "Emergency crew deployed within 2 hours. New breakaway post driven and 30-inch high-intensity Stop sign installed.",
+    "title": "Stop sign completely flattened by delivery truck at blind residential corner",
+    "aiAnalysis": {
+      "detectedKeywords": [
+        "stop sign",
+        "flattened",
+        "cross traffic",
+        "knocked down"
+      ],
+      "suggestedDepartment": "Traffic & Road Safety Authority",
+      "recommendedCategory": "Traffic & Signage",
+      "confidence": 0.98,
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "summary": "Regulatory Stop sign knocked down creating uncontrolled intersection conflict.",
+      "recommendedAction": "Immediate emergency sign replacement within 4-hour critical window.",
+      "priority": {
+        "factors": {
+          "safetyRisk": 8,
+          "urgency": 8,
+          "publicImpact": 8
+        },
+        "explanation": "High vehicular collision probability.",
+        "level": "High",
+        "slaHours": 4,
+        "score": 79
+      }
+    },
+    "isDemo": true,
+    "id": "CIV-2026-3850",
+    "actionLogs": [
+      {
+        "toStatus": "Submitted",
+        "id": "LOG-066",
+        "timestamp": "2026-10-28T07:16:36.455Z",
+        "action": "Complaint Registered",
+        "actor": "Leah Stern",
+        "actorRole": "Citizen",
+        "note": "Reported."
+      },
+      {
+        "actor": "Officer Priya Nair",
+        "id": "LOG-067",
+        "note": "Emergency crew deployed within 2 hours. New breakaway post driven and 30-inch high-intensity Stop sign installed.",
+        "action": "Post Driven & Resolved",
+        "fromStatus": "Submitted",
+        "toStatus": "Resolved",
+        "timestamp": "2026-10-28T13:16:36.455Z",
+        "actorRole": "Sign Maintenance Lead"
+      }
+    ],
+    "description": "The octagonal Stop sign at 14th Ave & Anza was run over and is lying flat on the asphalt. Cross-traffic is not stopping.",
+    "assignedDepartment": "Traffic & Road Safety Authority",
+    "corroborationCount": 16,
+    "category": "Traffic & Signage",
+    "status": "Resolved",
+    "priority": {
+      "level": "High",
+      "slaHours": 4,
+      "explanation": "Missing regulatory Stop sign at two-way stop intersection elevating collision risk.",
+      "score": 79,
+      "factors": {
+        "publicImpact": 8,
+        "urgency": 8,
+        "safetyRisk": 8
+      }
+    },
+    "citizenName": "Leah Stern",
+    "updatedAt": "2026-10-28T13:16:36.455Z"
+  },
+  {
+    "location": {
+      "address": "2400 Mission St & 20th",
+      "latitude": 37.7615,
+      "ward": "Ward 5 - Mission Corridor",
+      "landmark": "Corner of 20th St",
+      "longitude": -122.419
+    },
+    "createdAt": "2026-10-28T07:16:36.454Z",
+    "description": "Fresh spray paint tagging covering all warning signs and labels on the utility cabinet at 20th and Mission.",
+    "citizenContact": "teresa.m@example.com",
+    "isDemo": true,
+    "citizenName": "Teresa Morales",
+    "aiAnalysis": {
+      "recommendedAction": "Dispatch graffiti abatement pressure washing unit with replacement caution decals.",
+      "summary": "Aesthetic graffiti vandalism on municipal utility enclosure.",
+      "confidence": 0.92,
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "detectedKeywords": [
+        "graffiti",
+        "spray paint",
+        "utility cabinet",
+        "tags"
+      ],
+      "priority": {
+        "score": 28,
+        "slaHours": 120,
+        "factors": {
+          "safetyRisk": 3,
+          "publicImpact": 3,
+          "urgency": 2
+        },
+        "explanation": "Low severity aesthetic incident.",
+        "level": "Low"
+      },
+      "suggestedDepartment": "Public Works Department",
+      "recommendedCategory": "Public Safety & Hazards"
+    },
+    "title": "Extensive spray paint graffiti tags on green electric transformer box",
+    "actionLogs": [
+      {
+        "action": "Complaint Registered",
+        "toStatus": "Submitted",
+        "actor": "Teresa Morales",
+        "id": "LOG-039",
+        "actorRole": "Citizen",
+        "note": "Reported.",
+        "timestamp": "2026-10-28T07:16:36.454Z"
+      },
+      {
+        "actorRole": "AI Triage Engine",
+        "action": "AI Incident Triaged",
+        "id": "LOG-040",
+        "timestamp": "2026-10-29T13:16:36.454Z",
+        "toStatus": "Under Review",
+        "actor": "CivicAI Autonomous Classifier",
+        "note": "Classified Low (Score 28). Queued for weekly graffiti abatement route.",
+        "fromStatus": "Submitted"
+      }
+    ],
+    "status": "Under Review",
+    "corroborationCount": 1,
+    "category": "Public Safety & Hazards",
+    "priority": {
+      "level": "Low",
+      "factors": {
+        "urgency": 2,
+        "publicImpact": 3,
+        "safetyRisk": 3
+      },
+      "explanation": "Cosmetic graffiti tagging on utility cabinet with obscured warning labels.",
+      "score": 28,
+      "slaHours": 120
+    },
+    "id": "CIV-2026-3834",
+    "updatedAt": "2026-10-29T13:16:36.454Z"
+  },
+  {
+    "updatedAt": "2026-10-29T13:16:36.454Z",
+    "citizenName": "Cynthia Vance",
+    "isDemo": true,
+    "description": "The bushes in the center divider on Sunset Blvd at Pacheco are over 5 feet tall. Drivers making a left turn cannot see approaching southbound traffic.",
+    "location": {
+      "ward": "Ward 4 - Sunset District",
+      "landmark": "Center median planter",
+      "address": "Sunset Blvd & Pacheco St",
+      "longitude": -122.494,
+      "latitude": 37.7505
+    },
+    "citizenContact": "cynthia.v@example.com",
+    "aiAnalysis": {
+      "suggestedDepartment": "Parks & Recreation Agency",
+      "recommendedCategory": "Traffic & Signage",
+      "detectedKeywords": [
+        "overgrown bushes",
+        "center median",
+        "sight distance",
+        "left turn"
+      ],
+      "summary": "Sight-line restriction at median intersection due to unpruned landscaping.",
+      "priority": {
+        "score": 36,
+        "factors": {
+          "urgency": 4,
+          "safetyRisk": 3,
+          "publicImpact": 4
+        },
+        "slaHours": 96,
+        "level": "Low",
+        "explanation": "Sightline clearance item."
+      },
+      "recommendedAction": "Schedule median hedge flail trimming to maximum 30-inch sight height.",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "confidence": 0.91
+    },
+    "actionLogs": [
+      {
+        "actor": "Cynthia Vance",
+        "action": "Complaint Registered",
+        "id": "LOG-057",
+        "toStatus": "Submitted",
+        "note": "Reported.",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-28T05:16:36.454Z"
+      }
+    ],
+    "title": "Overgrown oleander bushes on center median blocking left-turn sight distance",
+    "id": "CIV-2026-3844",
+    "priority": {
+      "level": "Low",
+      "slaHours": 96,
+      "score": 36,
+      "factors": {
+        "publicImpact": 4,
+        "urgency": 4,
+        "safetyRisk": 3
+      },
+      "explanation": "Sight triangle obstruction from vegetative growth in center median."
+    },
+    "category": "Traffic & Signage",
+    "createdAt": "2026-10-28T05:16:36.454Z",
+    "corroborationCount": 3,
+    "status": "Under Review"
+  },
+  {
+    "id": "CIV-2026-3839",
+    "isDemo": true,
+    "title": "Loud screeching noise from park swings whenever in use",
+    "citizenName": "Henry Wu",
+    "actionLogs": [
+      {
+        "toStatus": "Submitted",
+        "timestamp": "2026-10-28T02:16:36.454Z",
+        "actor": "Henry Wu",
+        "actorRole": "Citizen",
+        "id": "LOG-048",
+        "action": "Complaint Registered",
+        "note": "Reported."
+      }
+    ],
+    "createdAt": "2026-10-28T02:16:36.454Z",
+    "priority": {
+      "explanation": "Routine playground lubrication maintenance request.",
+      "factors": {
+        "safetyRisk": 1,
+        "urgency": 1,
+        "publicImpact": 3
+      },
+      "slaHours": 168,
+      "level": "Low",
+      "score": 18
+    },
+    "category": "Noise & Pollution",
+    "citizenContact": "henry.w@example.com",
+    "description": "The swing set at Sunset Park has completely dry metal bearings that screech loudly every time kids swing on them. Very annoying for nearby houses.",
+    "location": {
+      "ward": "Ward 4 - Sunset District",
+      "address": "28th Ave & Lawton St",
+      "latitude": 37.756,
+      "landmark": "Sunset Community Park",
+      "longitude": -122.485
+    },
+    "status": "Submitted",
+    "aiAnalysis": {
+      "detectedKeywords": [
+        "screeching",
+        "swings",
+        "dry bearings",
+        "noise"
+      ],
+      "confidence": 0.88,
+      "recommendedAction": "Add to monthly park lubrication route.",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "summary": "Acoustic playground hardware friction requiring routine grease lubrication.",
+      "suggestedDepartment": "Parks & Recreation Agency",
+      "recommendedCategory": "Noise & Pollution",
+      "priority": {
+        "slaHours": 168,
+        "score": 18,
+        "explanation": "Minor quality of life request.",
+        "factors": {
+          "publicImpact": 3,
+          "safetyRisk": 1,
+          "urgency": 1
+        },
+        "level": "Low"
+      }
+    },
+    "updatedAt": "2026-10-29T03:16:36.454Z",
+    "corroborationCount": 2
+  },
+  {
+    "title": "Public dog waste bag dispenser has been empty for two weeks",
+    "id": "CIV-2026-3840",
+    "location": {
+      "ward": "Ward 4 - Sunset District",
+      "latitude": 37.742,
+      "longitude": -122.481,
+      "address": "Parkside Greenbelt at 22nd Ave",
+      "landmark": "Trailhead kiosk"
+    },
+    "assignedOfficer": "Park Specialist Liam O’Connor",
+    "status": "Resolved",
+    "actionLogs": [
+      {
+        "actor": "Olivia Martin",
+        "id": "LOG-049",
+        "timestamp": "2026-10-27T21:16:36.454Z",
+        "toStatus": "Submitted",
+        "actorRole": "Citizen",
+        "action": "Complaint Registered",
+        "note": "Reported."
+      },
+      {
+        "timestamp": "2026-10-29T08:16:36.454Z",
+        "actorRole": "Park Maintenance",
+        "action": "Restocked & Resolved",
+        "note": "Refilled with 4 rolls of biodegradable waste bags and checked lid latch.",
+        "toStatus": "Resolved",
+        "id": "LOG-050",
+        "fromStatus": "Submitted",
+        "actor": "Park Specialist Liam O’Connor"
+      }
+    ],
+    "createdAt": "2026-10-27T21:16:36.454Z",
+    "updatedAt": "2026-10-29T08:16:36.454Z",
+    "isDemo": true,
+    "description": "The dispenser box at the entrance of Parkside Trail is out of bags. Dog owners are leaving uncollected waste along the dirt trail.",
+    "corroborationCount": 4,
+    "citizenName": "Olivia Martin",
+    "aiAnalysis": {
+      "recommendedCategory": "Waste & Sanitation",
+      "suggestedDepartment": "Parks & Recreation Agency",
+      "priority": {
+        "slaHours": 96,
+        "level": "Low",
+        "explanation": "Low severity amenity maintenance.",
+        "score": 22,
+        "factors": {
+          "urgency": 2,
+          "safetyRisk": 1,
+          "publicImpact": 3
+        }
+      },
+      "recommendedAction": "Restock dispenser on weekly maintenance circuit.",
+      "detectedKeywords": [
+        "dog waste",
+        "dispenser empty",
+        "trailhead"
+      ],
+      "summary": "Public sanitation dispenser restocking request on recreational greenway.",
+      "confidence": 0.92,
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)"
+    },
+    "priority": {
+      "level": "Low",
+      "explanation": "Public trail amenity replenishment request.",
+      "score": 22,
+      "factors": {
+        "urgency": 2,
+        "safetyRisk": 1,
+        "publicImpact": 3
+      },
+      "slaHours": 96
+    },
+    "citizenContact": "olivia.m@example.com",
+    "assignedDepartment": "Parks & Recreation Agency",
+    "category": "Waste & Sanitation",
+    "resolutionNote": "Refilled with 4 rolls of biodegradable waste bags and checked lid latch."
+  },
+  {
+    "createdAt": "2026-10-27T16:16:36.454Z",
+    "description": "Sycamore tree branch has grown down to approximately 6 feet above sidewalk grade on Shotwell St. People have to duck.",
+    "citizenName": "Kenji Sato",
+    "citizenContact": "kenji.s@example.com",
+    "location": {
+      "latitude": 37.763,
+      "longitude": -122.4165,
+      "ward": "Ward 5 - Mission Corridor",
+      "landmark": "Near community garden",
+      "address": "420 Shotwell Street"
+    },
+    "actionLogs": [
+      {
+        "timestamp": "2026-10-27T16:16:36.454Z",
+        "toStatus": "Submitted",
+        "id": "LOG-041",
+        "note": "Reported.",
+        "actorRole": "Citizen",
+        "actor": "Kenji Sato",
+        "action": "Complaint Registered"
+      }
+    ],
+    "isDemo": true,
+    "title": "Low hanging tree branch hitting umbrellas and tall pedestrians on sidewalk",
+    "aiAnalysis": {
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "confidence": 0.89,
+      "summary": "Sub-standard vertical pedestrian clearance from municipal street tree.",
+      "suggestedDepartment": "Parks & Recreation Agency",
+      "recommendedCategory": "Parks & Public Spaces",
+      "recommendedAction": "Assign urban forestry arborist for selective crown elevation pruning.",
+      "detectedKeywords": [
+        "tree branch",
+        "low hanging",
+        "sidewalk clearance"
+      ],
+      "priority": {
+        "level": "Low",
+        "slaHours": 144,
+        "factors": {
+          "publicImpact": 3,
+          "safetyRisk": 2,
+          "urgency": 2
+        },
+        "score": 24,
+        "explanation": "Minor clearance inconvenience."
+      }
+    },
+    "category": "Parks & Public Spaces",
+    "priority": {
+      "slaHours": 144,
+      "factors": {
+        "urgency": 2,
+        "publicImpact": 3,
+        "safetyRisk": 2
+      },
+      "score": 24,
+      "level": "Low",
+      "explanation": "Non-emergency pedestrian clearance pruning required under municipal urban forestry program."
+    },
+    "status": "Submitted",
+    "updatedAt": "2026-10-29T08:16:36.454Z",
+    "id": "CIV-2026-3835",
+    "corroborationCount": 2
+  },
+  {
+    "citizenContact": "greg.s@example.com",
+    "description": "The white thermoplastic crosswalk lines have completely worn off on the north side of the intersection. Drivers do not yield to pedestrians.",
+    "status": "Submitted",
+    "updatedAt": "2026-10-29T09:16:36.454Z",
+    "corroborationCount": 2,
+    "citizenName": "Gregory Scott",
+    "location": {
+      "address": "3rd St & Stevenson St",
+      "longitude": -122.418,
+      "ward": "Ward 3 - Central District",
+      "latitude": 37.7752,
+      "landmark": "Near post office entrance"
+    },
+    "actionLogs": [
+      {
+        "toStatus": "Submitted",
+        "note": "Submitted via portal.",
+        "action": "Complaint Registered",
+        "id": "LOG-024",
+        "timestamp": "2026-10-27T11:16:36.454Z",
+        "actorRole": "Citizen",
+        "actor": "Gregory Scott"
+      }
+    ],
+    "priority": {
+      "score": 34,
+      "factors": {
+        "publicImpact": 4,
+        "urgency": 3,
+        "safetyRisk": 3
+      },
+      "explanation": "Routine pavement marking wear; scheduled for quarterly restriping program.",
+      "level": "Low",
+      "slaHours": 120
+    },
+    "category": "Traffic & Signage",
+    "isDemo": true,
+    "aiAnalysis": {
+      "priority": {
+        "level": "Low",
+        "factors": {
+          "urgency": 3,
+          "safetyRisk": 3,
+          "publicImpact": 4
+        },
+        "slaHours": 120,
+        "score": 34,
+        "explanation": "Non-emergency maintenance item."
+      },
+      "detectedKeywords": [
+        "faded crosswalk",
+        "zebra crossing",
+        "worn off",
+        "paint"
+      ],
+      "recommendedAction": "Queue into municipal road restriping batch order for Ward 3.",
+      "confidence": 0.88,
+      "summary": "Worn thermoplastic pedestrian crosswalk requiring scheduled maintenance striping.",
+      "recommendedCategory": "Traffic & Signage",
+      "suggestedDepartment": "Traffic & Road Safety Authority",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)"
+    },
+    "title": "Faded pedestrian zebra crossing paint at 3rd & Stevenson",
+    "id": "CIV-2026-3829",
+    "createdAt": "2026-10-27T11:16:36.454Z"
+  },
+  {
+    "title": "Citizen request for digital radar speed feedback sign on 7th Ave",
+    "aiAnalysis": {
+      "recommendedAction": "Forward to Traffic Engineering Division for speed survey scheduling.",
+      "priority": {
+        "explanation": "Capital improvement evaluation.",
+        "score": 27,
+        "factors": {
+          "safetyRisk": 3,
+          "urgency": 2,
+          "publicImpact": 3
+        },
+        "level": "Low",
+        "slaHours": 168
+      },
+      "suggestedDepartment": "Traffic & Road Safety Authority",
+      "recommendedCategory": "Traffic & Signage",
+      "summary": "Citizen request for traffic calming radar feedback installation.",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "detectedKeywords": [
+        "radar speed",
+        "traffic calming",
+        "speeding"
+      ],
+      "confidence": 0.89
+    },
+    "location": {
+      "address": "7th Ave & Lawton St",
+      "ward": "Ward 4 - Sunset District",
+      "latitude": 37.757,
+      "longitude": -122.464,
+      "landmark": "Mid-block residential corridor"
+    },
+    "updatedAt": "2026-10-28T17:16:36.455Z",
+    "isDemo": true,
+    "id": "CIV-2026-3854",
+    "citizenContact": "alice.m@example.com",
+    "createdAt": "2026-10-27T09:16:36.455Z",
+    "description": "Vehicles frequently speed down 7th Ave when coming off the hill. Requesting a solar radar speed trailer or permanent display.",
+    "corroborationCount": 3,
+    "actionLogs": [
+      {
+        "action": "Complaint Registered",
+        "note": "Reported.",
+        "id": "LOG-072",
+        "toStatus": "Submitted",
+        "timestamp": "2026-10-27T09:16:36.455Z",
+        "actor": "Alice Monroe",
+        "actorRole": "Citizen"
+      }
+    ],
+    "citizenName": "Alice Monroe",
+    "status": "Under Review",
+    "priority": {
+      "factors": {
+        "safetyRisk": 3,
+        "urgency": 2,
+        "publicImpact": 3
+      },
+      "level": "Low",
+      "explanation": "Long-term traffic calming infrastructure inquiry.",
+      "score": 27,
+      "slaHours": 168
+    },
+    "category": "Traffic & Signage"
+  },
+  {
+    "description": "Pothole about 18 inches across and 3 inches deep in front of residential driveways.",
+    "title": "Pothole on 24th Ave between Taraval and Santiago",
+    "actionLogs": [
+      {
+        "note": "Reported.",
+        "toStatus": "Submitted",
+        "actorRole": "Citizen",
+        "action": "Complaint Registered",
+        "timestamp": "2026-10-27T09:16:36.454Z",
+        "id": "LOG-053",
+        "actor": "Grace Lin"
+      },
+      {
+        "timestamp": "2026-10-29T13:16:36.454Z",
+        "note": "Hot asphalt patch applied, rolled, and sealed flush with street grade.",
+        "actorRole": "Pothole Patch Crew Lead",
+        "toStatus": "Resolved",
+        "action": "Hot Asphalt Patch Completed",
+        "fromStatus": "Submitted",
+        "id": "LOG-054",
+        "actor": "Officer David Ramirez"
+      }
+    ],
+    "priority": {
+      "explanation": "Standard residential roadway surface depression.",
+      "factors": {
+        "urgency": 4,
+        "publicImpact": 5,
+        "safetyRisk": 4
+      },
+      "level": "Medium",
+      "score": 45,
+      "slaHours": 72
+    },
+    "category": "Roads & Potholes",
+    "citizenName": "Grace Lin",
+    "status": "Resolved",
+    "updatedAt": "2026-10-29T13:16:36.454Z",
+    "location": {
+      "address": "2345 24th Ave",
+      "latitude": 37.747,
+      "landmark": "Opposite blue townhouse",
+      "ward": "Ward 4 - Sunset District",
+      "longitude": -122.4815
+    },
+    "createdAt": "2026-10-27T09:16:36.454Z",
+    "corroborationCount": 3,
+    "aiAnalysis": {
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "detectedKeywords": [
+        "pothole",
+        "residential driveway"
+      ],
+      "summary": "Residential asphalt pothole repaired during routine sector maintenance.",
+      "confidence": 0.9,
+      "suggestedDepartment": "Public Works Department",
+      "recommendedCategory": "Roads & Potholes",
+      "recommendedAction": "Asphalt cold patch or hot mix restoration.",
+      "priority": {
+        "slaHours": 72,
+        "level": "Medium",
+        "factors": {
+          "publicImpact": 5,
+          "urgency": 4,
+          "safetyRisk": 4
+        },
+        "explanation": "Routine asphalt wear.",
+        "score": 45
+      }
+    },
+    "isDemo": true,
+    "citizenContact": "grace.l@example.com",
+    "resolutionNote": "Hot asphalt patch applied, rolled, and sealed flush with street grade.",
+    "id": "CIV-2026-3842",
+    "assignedDepartment": "Public Works Department",
+    "assignedOfficer": "Officer David Ramirez (Crew Lead 4)"
+  },
+  {
+    "aiAnalysis": {
+      "summary": "Missing street name identification signage.",
+      "priority": {
+        "score": 29,
+        "explanation": "Wayfinding infrastructure item.",
+        "slaHours": 120,
+        "level": "Low",
+        "factors": {
+          "safetyRisk": 2,
+          "publicImpact": 3,
+          "urgency": 3
+        }
+      },
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "recommendedAction": "Fabricate replacement reflective aluminum blade sign and reinstall on pole clamp.",
+      "detectedKeywords": [
+        "street name sign",
+        "missing",
+        "blade sign",
+        "wayfinding"
+      ],
+      "confidence": 0.9,
+      "recommendedCategory": "Traffic & Signage",
+      "suggestedDepartment": "Traffic & Road Safety Authority"
+    },
+    "updatedAt": "2026-10-29T03:16:36.454Z",
+    "citizenContact": "evelyn.w@example.com",
+    "isDemo": true,
+    "location": {
+      "latitude": 37.7885,
+      "address": "Sacramento St & Spruce St",
+      "landmark": "Northwest corner streetlight pole",
+      "ward": "Ward 2 - Presidio Heights",
+      "longitude": -122.453
+    },
+    "title": "Street name blade sign missing from corner post at Sacramento & Spruce",
+    "description": "The green metal sign reading \"Spruce St\" has been knocked off or stolen. Delivery drivers and emergency vehicles have trouble finding the intersection.",
+    "id": "CIV-2026-3846",
+    "priority": {
+      "level": "Low",
+      "slaHours": 120,
+      "score": 29,
+      "factors": {
+        "urgency": 3,
+        "publicImpact": 3,
+        "safetyRisk": 2
+      },
+      "explanation": "Missing intersection street identity sign."
+    },
+    "corroborationCount": 2,
+    "category": "Traffic & Signage",
+    "createdAt": "2026-10-27T06:16:36.454Z",
+    "status": "Submitted",
+    "actionLogs": [
+      {
+        "toStatus": "Submitted",
+        "id": "LOG-060",
+        "action": "Complaint Registered",
+        "timestamp": "2026-10-27T06:16:36.454Z",
+        "actor": "Evelyn Walsh",
+        "actorRole": "Citizen",
+        "note": "Reported."
+      }
+    ],
+    "citizenName": "Evelyn Walsh"
+  },
+  {
+    "location": {
+      "latitude": 37.778,
+      "address": "Rose Garden Park at Park Presidio",
+      "landmark": "Rose Garden south path",
+      "ward": "Ward 1 - Richmond District",
+      "longitude": -122.464
+    },
+    "title": "Wooden park bench has cracked middle board with sharp splinters",
+    "corroborationCount": 1,
+    "citizenName": "Hannah Abbott",
+    "aiAnalysis": {
+      "confidence": 0.9,
+      "recommendedAction": "Replace 2x4 treated redwood slat and apply exterior enamel.",
+      "recommendedCategory": "Parks & Public Spaces",
+      "suggestedDepartment": "Parks & Recreation Agency",
+      "analysisEngine": "Rule-Based Civic Heuristics (Pre-analyzed)",
+      "summary": "Damaged wooden bench slat requiring replacement.",
+      "priority": {
+        "factors": {
+          "publicImpact": 2,
+          "urgency": 2,
+          "safetyRisk": 2
+        },
+        "level": "Low",
+        "explanation": "Low severity amenity item.",
+        "slaHours": 168,
+        "score": 21
+      },
+      "detectedKeywords": [
+        "park bench",
+        "cracked board",
+        "splinters"
+      ]
+    },
+    "createdAt": "2026-10-27T01:16:36.454Z",
+    "status": "Submitted",
+    "description": "The green wooden bench near the playground rose garden has a cracked timber slat that could catch someone’s clothing or cause splinters.",
+    "actionLogs": [
+      {
+        "note": "Reported.",
+        "actor": "Hannah Abbott",
+        "action": "Complaint Registered",
+        "id": "LOG-063",
+        "toStatus": "Submitted",
+        "actorRole": "Citizen",
+        "timestamp": "2026-10-27T01:16:36.454Z"
+      }
+    ],
+    "updatedAt": "2026-10-28T22:16:36.454Z",
+    "priority": {
+      "slaHours": 168,
+      "explanation": "Routine municipal park bench maintenance.",
+      "level": "Low",
+      "score": 21,
+      "factors": {
+        "publicImpact": 2,
+        "urgency": 2,
+        "safetyRisk": 2
+      }
+    },
+    "isDemo": true,
+    "category": "Parks & Public Spaces",
+    "citizenContact": "hannah.a@example.com",
+    "id": "CIV-2026-3848"
+  }
+]

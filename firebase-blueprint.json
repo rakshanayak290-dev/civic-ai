@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": "1.0.0",
+  "entities": {
+    "Complaint": {
+      "title": "Complaint",
+      "type": "object",
+      "description": "A citizen-submitted civic complaint with AI triage analysis, geospatial location, priority score, and resolution logs.",
+      "properties": {
+        "id": { "type": "string", "description": "Unique civic ticket identifier (e.g., CIV-2026-7842)" },
+        "title": { "type": "string", "description": "Brief summary title of the municipal hazard" },
+        "description": { "type": "string", "description": "Detailed text description of the civic issue" },
+        "category": { "type": "string", "description": "Classified category of the problem" },
+        "location": {
+          "type": "object",
+          "description": "Geographical location with address, ward, coordinates",
+          "properties": {
+            "address": { "type": "string" },
+            "ward": { "type": "string" },
+            "latitude": { "type": "number" },
+            "longitude": { "type": "number" },
+            "landmark": { "type": "string" }
+          },
+          "required": ["address", "latitude", "longitude"]
+        },
+        "photoUrl": { "type": "string", "description": "Optional photo proof or evidence data URL" },
+        "citizenName": { "type": "string" },
+        "citizenContact": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "status": { "type": "string", "description": "Workflow status: Submitted, Under Review, Assigned, In Progress, Resolved, Closed" },
+        "assignedDepartment": { "type": "string" },
+        "assignedOfficer": { "type": "string" },
+        "priority": { "type": "object" },
+        "aiAnalysis": { "type": "object" },
+        "duplicateInfo": { "type": "object" },
+        "mergedComplaintIds": { "type": "array", "items": { "type": "string" } },
+        "corroborationCount": { "type": "integer" },
+        "actionLogs": { "type": "array", "items": { "type": "object" } },
+        "internalNotes": { "type": "array", "items": { "type": "string" } },
+        "targetResolutionDate": { "type": "string" },
+        "resolutionNote": { "type": "string" },
+        "isDemo": { "type": "boolean" }
+      },
+      "required": ["id", "title", "description", "category", "location", "createdAt", "updatedAt", "status", "priority", "aiAnalysis"]
+    },
+    "HotspotCluster": {
+      "title": "HotspotCluster",
+      "type": "object",
+      "description": "Geographic cluster identifying recurring problems and systemic municipal actions",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "ward": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" },
+        "radiusMeters": { "type": "number" },
+        "complaintCount": { "type": "integer" },
+        "openCount": { "type": "integer" },
+        "resolvedCount": { "type": "integer" },
+        "primaryCategory": { "type": "string" },
+        "categoryCounts": { "type": "object" },
+        "severityIndex": { "type": "string" },
+        "trend": { "type": "string" },
+        "recurringIssuesSummary": { "type": "string" },
+        "recommendedSystemicAction": { "type": "string" },
+        "complaintIds": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "name", "ward", "latitude", "longitude", "complaintCount", "openCount", "resolvedCount", "primaryCategory", "severityIndex"]
+    },
+    "UserProfile": {
+      "title": "UserProfile",
+      "type": "object",
+      "description": "Officer or citizen user profile for access control and municipal auditing",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "role": { "type": "string", "enum": ["admin", "officer", "citizen"] },
+        "department": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "email", "role"]
+    },
+    "SystemMetadata": {
+      "title": "SystemMetadata",
+      "type": "object",
+      "description": "System state, configuration, and audit records",
+      "properties": {
+        "id": { "type": "string" },
+        "key": { "type": "string" },
+        "value": {},
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id", "key"]
+    }
+  },
+  "firestore": {
+    "/complaints/{complaintId}": {
+      "entity": "Complaint",
+      "description": "Civic complaints submitted by citizens and managed by city dispatchers"
+    },
+    "/hotspots/{hotspotId}": {
+      "entity": "HotspotCluster",
+      "description": "Aggregated recurring incident hotspots and systemic municipal recommendations"
+    },
+    "/users/{userId}": {
+      "entity": "UserProfile",
+      "description": "Municipal officers and citizen user profiles"
+    },
+    "/system/{metaId}": {
+      "entity": "SystemMetadata",
+      "description": "Platform counters, health, and configuration documents"
+    }
+  }
+}
